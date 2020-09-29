@@ -1,18 +1,3 @@
-has_secure_password
-describe Array do
-  describe "with 3 items" do
-    before { @arr = [1, 2, 3] }
+(0...8).map { (65 + rand(26)).chr }.join
 
-    specify { @arr.should_not be_empty }
-    specify { @arr.count.should eq(3) }
-  end
-end
-
-describe Array do
-  describe "with 3 items" do
-    subject { [1, 2, 3] }
-
-    it { should_not be_empty }
-    its(:count) { should eq(3) }
-  end
-end
+#flatten!
