@@ -1,2 +1,2 @@
-child_process.exec
-case
+~/.bashrc
+self.class::CONST
