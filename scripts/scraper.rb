@@ -1,3 +1,9 @@
-(0...8).map { (65 + rand(26)).chr }.join
+begin
+  require 'someFile.rb'
+rescue LoadError
+  puts "someFile.rb was not found, have you"
+  puts "forgotten to specify the -I flag?"
+  exit
+end
 
-#flatten!
+Array#each
