@@ -1,7 +1,12 @@
-gem 'ruby-oci8', '=1.0.7'
-require 'oci8'           # example is confusing; file required (oci8.rb) is not 
-                         # same name as gem, as is frequently the case
+>> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].each_slice(4) {|a| p a}
+[1, 2, 3, 4]
+[5, 6, 7, 8]
+[9, 10, 11, 12]
 
-puts object_id
-@a = 'Look, I have instance variables!'
-puts @a
+GoogleChart::PieChart.new('320x200', "Things I Like To Eat", false) do |pc| 
+  pc.data "Broccoli", 30
+  pc.data "Pizza", 20
+  pc.data "PB&J", 40 
+  pc.data "Turnips", 10 
+  puts pc.to_url 
+end
