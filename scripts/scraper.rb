@@ -1,8 +1,5 @@
-defaults: &defaults
-  host: 127.0.0.1
-  port: 27017
+str = str.force_encoding('UTF-8')
 
-development:
-  database: database_name
+str.encoding.name # => 'UTF-8'
 
-flash[:success]
+console.log 'hi' for [1..3]
