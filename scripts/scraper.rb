@@ -1,7 +1,8 @@
-#Put this in applictation_controller.rb
-before_filter :log_ram # or use after_filter
-def log_ram
-  logger.warn 'RAM USAGE: ' + `pmap #{Process.pid} | tail -1`[10,40].strip
-end
+defaults: &defaults
+  host: 127.0.0.1
+  port: 27017
 
-&
+development:
+  database: database_name
+
+flash[:success]
