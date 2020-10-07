@@ -1,4 +1,2 @@
-$stdout
-if val.nil? || val == 0
-  [do something]
-end
+s_client
+block
