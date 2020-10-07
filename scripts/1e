@@ -1,2 +1,2 @@
-sudo yum list installed
-User.where.not(id: id)
+~/.gemrc
+brew install ruby
