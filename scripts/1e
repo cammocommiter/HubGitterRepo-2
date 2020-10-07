@@ -1,8 +1,6 @@
-respond_to do |format|
-
-  format.html # show.html.erb
-  format.json { render json: @user }
-
- end
-
-Mysql2::Error This connection is still waiting for a result
+[]
+a = "foobar"
+a.slice! "foo"
+=> "foo"
+a
+=> "bar"
