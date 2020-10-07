@@ -1,2 +1,4 @@
-FileUtils.touch
-gem install sass
+$stdout
+if val.nil? || val == 0
+  [do something]
+end
