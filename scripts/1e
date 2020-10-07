@@ -1,7 +1,5 @@
-h = {1 => 'one', 2 => 'two', 3 => 'three'}
+ def self.up
+   add_column :users, :multi_wrong, :text
+ end
 
-(1..3).each do |i|
-  puts h[i]
-end
-
-(?i)
+[x*x for x in values if x > 15]
