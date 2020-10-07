@@ -1,3 +1,5 @@
-$:.push File.expand_path(File.dirname(__FILE__) + '/../surfcompstuff')
+@posts = Post.joins("LEFT OUTER JOIN users ON users.id = posts.user_id").
+              joins(:blog).select
 
-expect(@article.updated_at.utc.to_s).to eq(Time.now.to_s)
+10.minutes.ago
+2.days.since
