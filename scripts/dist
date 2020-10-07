@@ -1,3 +1,2 @@
-clone
->> File.join("path", "to", "join")
-=> "path/to/join"
+FileUtils.touch
+gem install sass
