@@ -1,1 +1,3 @@
-def this; end
+cats.each { |cat| cat.name }
+
+Struct
