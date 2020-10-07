@@ -1,1 +1,3 @@
-def this; end
+RVM
+# ruby
+$stdout.sync = true
