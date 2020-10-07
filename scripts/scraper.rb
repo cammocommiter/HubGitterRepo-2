@@ -1,5 +1,16 @@
-str = str.force_encoding('UTF-8')
+require 'date'
+now = Date.today
+ninety_days_ago = (now - 90)
 
-str.encoding.name # => 'UTF-8'
+namespace :my_tasks do
+  task :foo do
+    do_something
+  end
 
-console.log 'hi' for [1..3]
+  task :bar do
+    do_something_else
+  end
+
+end
+
+task :all => ["my_tasks:foo", "my_tasks:bar"]
