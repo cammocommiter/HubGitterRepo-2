@@ -1,2 +1,2 @@
-fire!
-gem update --system 1.6.2
+class << self
+Record.exists?(record)
