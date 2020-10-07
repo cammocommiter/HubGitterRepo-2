@@ -1,2 +1,2 @@
-# TODO
-gem install --user-install gem_name
+fire!
+gem update --system 1.6.2
