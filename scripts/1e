@@ -1,5 +1,2 @@
- def self.up
-   add_column :users, :multi_wrong, :text
- end
-
-[x*x for x in values if x > 15]
+sudo yum list installed
+User.where.not(id: id)
