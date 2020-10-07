@@ -1,9 +1,7 @@
-# Only run the following code when this file is the main file being run
-# instead of having been required or loaded by another file
-if __FILE__==$0
-  # Find the parent directory of this file and add it to the front
-  # of the list of locations to look in when using require
-  $:.unshift File.expand_path("../../", __FILE__)  
-end
+for i in `gem list --no-versions`; do gem uninstall -aIx $i; done
 
-nil
+h = {a: 1, b: 2, c: 3}
+key_map = {a: 'A', b: 'B', c: 'C'}
+
+h.transform_keys! {|k| key_map[k]}
+# => {"A"=>1, "B"=>2, "C"=>3} 
