@@ -1,2 +1,2 @@
-puts
-User
+underscore
+"The #{animal} #{action} the #{second_animal}"
