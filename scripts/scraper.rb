@@ -1,2 +1,8 @@
-ensure
-sudo apt-get install libmysql-ruby libmysqlclient-dev
+# checking whether foo is a boolean
+!!foo == foo
+
+def foo
+  ...
+rescue
+  ...
+end
