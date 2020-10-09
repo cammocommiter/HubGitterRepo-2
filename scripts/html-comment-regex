@@ -1,12 +1,2 @@
-class A
-  class << self
-    puts self # self is the singleton class of A
-  end
-end
-
-a = A.new
-class << a
-  puts self # now it's the singleton class of object a
-end
-
-core_ext
+.
+{}
