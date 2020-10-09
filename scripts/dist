@@ -1,2 +1,2 @@
-class << self
-Record.exists?(record)
+Symbol
+f.input :color, :as => :select, :collection => Wine.colors.keys.to_a
