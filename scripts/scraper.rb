@@ -1,8 +1,2 @@
-# checking whether foo is a boolean
-!!foo == foo
-
-def foo
-  ...
-rescue
-  ...
-end
+/x
+a.sort { |a, b| [a['foo'], a['bar']] <=> [b['foo'], b['bar']] }
