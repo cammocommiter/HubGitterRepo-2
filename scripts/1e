@@ -1,6 +1,2 @@
-[]
-a = "foobar"
-a.slice! "foo"
-=> "foo"
-a
-=> "bar"
+rand(range)
+pretty_generate()
