@@ -1,2 +1,11 @@
-autolibs
-number_with_precision
+cat = String.new("cat")
+def cat.speak
+    'miaow'
+end
+cat.speak #=> "miaow" 
+cat.singleton_methods #=> ["speak"] 
+
+$ Date.today
+=> #<Date: 2017-12-29 ((2458117j,0s,0n),+0s,2299161j)>
+$ Date.today.to_i
+=> NoMethodError: undefined method 'to_i' for #<Date: 2017-12-29 ((2458117j,0s,0n),+0s,2299161j)>
