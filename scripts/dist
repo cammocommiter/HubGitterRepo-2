@@ -1,2 +1,5 @@
-elsif
-link = %q[<a href="javascript:method('call')">link</a>]
+before_action only: [:show, :edit, :update, :destroy] do
+  set_support("value")
+end
+
+String#split
