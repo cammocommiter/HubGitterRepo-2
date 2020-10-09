@@ -1,2 +1,4 @@
-sort_by{...}.reverse!
-spec_helper.rb
+hash = {"apple" => "fruit", "carrot" => "vegetable"}
+array = hash.keys   #=> ["apple", "carrot"]
+
+ruby yourfile.rb
