@@ -1,5 +1,2 @@
-before_action only: [:show, :edit, :update, :destroy] do
-  set_support("value")
-end
-
-String#split
+method(int a, int b) vs method(String a, String b)
+options
