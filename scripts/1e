@@ -1,2 +1,5 @@
-form.schedule :as => :recurring
-Object
+http://invalid##host.com
+
+ def self.up
+   add_column :users, :multi_wrong, :text
+ end
