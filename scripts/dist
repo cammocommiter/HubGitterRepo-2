@@ -1,2 +1,2 @@
-Symbol
-f.input :color, :as => :select, :collection => Wine.colors.keys.to_a
+elsif
+link = %q[<a href="javascript:method('call')">link</a>]
