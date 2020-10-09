@@ -1,13 +1,2 @@
-# Tables and views
-ActiveRecord::Base.connection.data_sources
-ActiveRecord::Base.connection.data_source_exists? 'kittens'
-
-# Tables
-ActiveRecord::Base.connection.tables
-ActiveRecord::Base.connection.table_exists? 'kittens'
-
-# Views
-ActiveRecord::Base.connection.views
-ActiveRecord::Base.connection.view_exists? 'kittens'
-
-require "./tokenizer"
+sort_by{...}.reverse!
+spec_helper.rb
