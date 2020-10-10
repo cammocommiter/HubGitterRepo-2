@@ -1,5 +1,2 @@
-def show
-  @city = @user.city.present?
-end
-
-Date.parse
+#each
+result = Users.find(:all, :order => "LOWER(name)")
