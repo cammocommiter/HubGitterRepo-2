@@ -1,2 +1,4 @@
-lib/ext/string.rb
-data.each_slice(3) {|slice| ... }
+localhost
+Error: Xcode alone is not sufficient on Sierra.
+Install the Command Line Tools:
+xcode-select --install 
