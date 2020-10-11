@@ -1,2 +1,5 @@
-make install
-.bundle
+Capybara.exact = true
+
+Given /^I login successfully$/
+    step "I login with valid credentials" 
+end 
