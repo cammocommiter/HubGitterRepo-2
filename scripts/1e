@@ -1,5 +1,2 @@
-http://invalid##host.com
-
- def self.up
-   add_column :users, :multi_wrong, :text
- end
+require_relative
+a.gsub!(/[^0-9A-Za-z]/, '')
