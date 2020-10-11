@@ -1,3 +1,2 @@
-\A
-gem unpack rake
-ls rake-0.4.3/
+make install
+.bundle
