@@ -1,4 +1,2 @@
-@title = tokens[Title]
-@title.strip!
-
-||
+rvm --help
+alias_method_chain()
