@@ -1,9 +1,3 @@
->> "àáâãäå".mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,'').downcase.to_s
-=> "aaaaaa"
-
-my_array.each_with_index do |item, index|
-    if index == 0
-        # do something with the first item
-    end
-    # common stuff
-end
+destroy_all
+@title = tokens[Title]
+@title.strip!
