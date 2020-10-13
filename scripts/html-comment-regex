@@ -1,2 +1,7 @@
-Process
-cat
+$ gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include                                                                                                             
+Building native extensions with: '--with-cppflags=-I/usr/local/opt/openssl/include'
+This could take a while...
+Successfully installed eventmachine-1.0.8
+1 gem installed
+
+The and and or keywords are banned. It's just not worth it. Always use && and || instead.
