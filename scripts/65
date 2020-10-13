@@ -1,1 +1,2 @@
-def this; end
+'true'
+app/controllers/pages_controller.rb
