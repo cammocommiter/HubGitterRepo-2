@@ -1,3 +1,2 @@
-destroy_all
-@title = tokens[Title]
-@title.strip!
+casecmp
+let(:dummy_class) { Class.new { include ModuleToBeTested } }
