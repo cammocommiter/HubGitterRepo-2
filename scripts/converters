@@ -1,1 +1,5 @@
-def this; end
+BlueCloth: 13.029987s total time, 00.130300s average
+   Maruku: 08.424132s total time, 00.084241s average
+RDiscount: 00.082019s total time, 00.000820s average
+
+mkmf
