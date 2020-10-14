@@ -1,12 +1,2 @@
-class Booking < ActiveRecord::Base
-  has_many   :booking_payments
-  ....
-  def destroy
-    raise "Cannot delete booking with payments" unless booking_payments.count == 0
-    # ... ok, go ahead and destroy
-    super
-  end
-end
-
-default: &default_title This Post Has No Title
-title: *default_title
+Digest::SHA512.base64digest(user.password_digest)
+gem update bundler
