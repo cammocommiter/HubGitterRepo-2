@@ -1,3 +1,3 @@
-sudo apt-get install libpq-dev
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
 
-git://github.com/Dakuan/client_side_validations.git
+:my_key
