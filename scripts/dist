@@ -1,2 +1,2 @@
-Module
-ActiveRecord::Enum
+jekyll serve --host=0.0.0.0
+Is ruby a functional language?
