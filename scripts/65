@@ -1,5 +1,2 @@
-Integer('5abc') #=> ArgumentError: invalid value for Integer(): "5abc"
-Integer('5') #=> 5
-
-gem install localtunnel
-localtunnel 3000
+//= require_tree .
+"123".split(//).last(5).to_s
