@@ -1,2 +1,9 @@
-casecmp
-let(:dummy_class) { Class.new { include ModuleToBeTested } }
+respond_to do |format|
+  format.js # actually means: if the client ask for js -> return file.js
+end
+
+require 'time'
+s = "11/23/10 23:29:57"
+Time.parse(s) # => Tue Nov 23 23:29:57 -0800 2010
+s += " UTC"
+Time.parse(s) # => Tue Nov 23 23:29:57 UTC 2010
