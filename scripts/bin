@@ -1,3 +1,8 @@
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+Haml::Template::options[:ugly] = true
+class SillyHash < Hash
 
-:my_key
+  def [](key)
+    super.reverse
+  end
+
+end
