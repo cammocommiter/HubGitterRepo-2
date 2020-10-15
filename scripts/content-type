@@ -1,16 +1,2 @@
-a = [3, 2, 4, 6, 3, 8]
-a.delete(3)
-#=> 3
-a
-#=> [2, 4, 6, 8]
-
-car = {:make => "bmw", :year => "2003"}
-# => {:make=>"bmw", :year=>"2003"}
-car.to_json
-# NoMethodError: undefined method `to_json' for {:make=>"bmw", :year=>"2003"}:Hash
-#   from (irb):11
-#   from /usr/bin/irb:12:in `<main>'
-require 'json'
-# => true
-car.to_json
-# => "{"make":"bmw","year":"2003"}"
+app/controllers/pages_controller.rb
+data = File.read("/path/to/file")
