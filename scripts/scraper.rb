@@ -1,2 +1,2 @@
-with_indifferent_access
-Array::Shift
+each_slice
+{{ site.time | date: '%y' }}
