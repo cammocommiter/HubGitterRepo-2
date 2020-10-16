@@ -1,22 +1,13 @@
-stringify_keys
-module Enumerable
+validates :email, format: { with: URI::MailTo::EMAIL_REGEXP } 
 
-    def sum
-      self.inject(0){|accum, i| accum + i }
-    end
+truncate("Once upon a time in a world far far away")
+# => "Once upon a time in a world..."
 
-    def mean
-      self.sum/self.length.to_f
-    end
+truncate("Once upon a time in a world far far away", :length => 17)
+# => "Once upon a ti..."
 
-    def sample_variance
-      m = self.mean
-      sum = self.inject(0){|accum, i| accum +(i-m)**2 }
-      sum/(self.length - 1).to_f
-    end
+truncate("Once upon a time in a world far far away", :length => 17, :separator => ' ')
+# => "Once upon a..."
 
-    def standard_deviation
-      Math.sqrt(self.sample_variance)
-    end
-
-end 
+truncate("And they found that many people were sleeping better.", :length => 25, :omission => '... (continued)')
+# => "And they f... (continued)"
