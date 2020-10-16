@@ -1,7 +1,12 @@
-sudo apt-get install ruby1.9
-
-#Put this in applictation_controller.rb
-before_filter :log_ram # or use after_filter
-def log_ram
-  logger.warn 'RAM USAGE: ' + `pmap #{Process.pid} | tail -1`[10,40].strip
+require 'csv'
+CSV.open("myfile.csv", "w") do |csv|
+  csv << ["row", "of", "CSV", "data"]
+  csv << ["another", "row"]
+  # ...
 end
+
+a = "foobar"
+a.slice! "foo"
+=> "foo"
+a
+=> "bar"
