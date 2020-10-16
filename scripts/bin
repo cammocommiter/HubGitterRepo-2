@@ -1,8 +1,5 @@
-Haml::Template::options[:ugly] = true
-class SillyHash < Hash
+@search = Model.new_search(params[:search])
+@search.condition.field_starts_with = "prefix"
+@models = @search.all
 
-  def [](key)
-    super.reverse
-  end
-
-end
+render ... :location => @user
