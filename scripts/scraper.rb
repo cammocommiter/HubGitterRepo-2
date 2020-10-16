@@ -1,16 +1,6 @@
-require 'fileutils'
+names = ["Jason", "Jason", "Teresa", "Judah", "Michelle", "Judah", "Judah", "Allison"]
+counts = Hash.new(0)
+names.each { |name| counts[name] += 1 }
+# => {"Jason" => 2, "Teresa" => 1, ....
 
-FileUtils.rm_rf('directorypath/name')
-
-class Person
-    attr_accessor :name, :age
-
-    def initialize(name = '', age = 0)
-        self.name = name
-        self.age = age
-    end
-end
-
-
-Person.new('Ivan', 20)
-Person.new('Ivan')
+rake task_name
