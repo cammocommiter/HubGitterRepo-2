@@ -1,2 +1,3 @@
-params[:foo]
-find_all
+apt-get install ruby-dev
+
+def foo(bar) bar = 'reference' end; baz = 'value'; foo(baz); puts "Ruby is pass-by-#{baz}"
