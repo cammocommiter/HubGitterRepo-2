@@ -1,12 +1,2 @@
-require 'csv'
-CSV.open("myfile.csv", "w") do |csv|
-  csv << ["row", "of", "CSV", "data"]
-  csv << ["another", "row"]
-  # ...
-end
-
-a = "foobar"
-a.slice! "foo"
-=> "foo"
-a
-=> "bar"
+to_i
+content_for?
