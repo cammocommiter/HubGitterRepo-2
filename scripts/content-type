@@ -1,15 +1,8 @@
- def self.up
-   add_column :users, :multi_wrong, :text
- end
-
-class Gift
-  def initialize
-    @name = "book"
-    @price = 15.95
+Enumerable#each_slice
+strings.each_with_index do |string, i|
+  begin
+    do_risky_operation(string)
+  rescue Exception => e
+    raise $!, "Problem with string number #{i}: #{$!}", $!.backtrace
   end
 end
-
-gift = Gift.new
-hash = {}
-gift.instance_variables.each {|var| hash[var.to_s.delete("@")] = gift.instance_variable_get(var) }
-p hash # => {"name"=>"book", "price"=>15.95}
