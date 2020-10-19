@@ -1,11 +1,12 @@
-Enumerable#reduce
-class Array
-  def comprehend(&block)
-    return self if block.nil?
-    self.collect(&block).compact
-  end
-end
+'hello' =~ /^h/ # => 0
+truncate("Once upon a time in a world far far away")
+# => "Once upon a time in a world..."
 
-some_array = [1, 2, 3, 4, 5, 6]
-new_array = some_array.comprehend {|x| x * 3 if x % 2 == 0}
-puts new_array
+truncate("Once upon a time in a world far far away", :length => 17)
+# => "Once upon a ti..."
+
+truncate("Once upon a time in a world far far away", :length => 17, :separator => ' ')
+# => "Once upon a..."
+
+truncate("And they found that many people were sleeping better.", :length => 25, :omission => '... (continued)')
+# => "And they f... (continued)"
