@@ -1,2 +1,8 @@
-log/test.log
-rake time:zones:us
+select
+module Vehicle 
+... 
+class SelfPropelling 
+... 
+class Truck < SelfPropelling 
+  include Vehicle 
+... 
