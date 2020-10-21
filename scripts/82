@@ -1,3 +1,8 @@
-string[N..-1]
+my_array.each_with_index do |item, index|
+    if index == 0
+        # do something with the first item
+    end
+    # common stuff
+end
 
-irb(main):015:0> def hi     irb(main):016:1> "hello"     irb(main):017:1> end     => nil     irb(main):018:0> hi.object_id     => 22452528     irb(main):019:0> hi.object_id.send hi     => "hi"     irb(main):020:0> hi.object_id.send(hi)     => "hi"
+gem install foo
