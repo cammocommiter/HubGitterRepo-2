@@ -1,2 +1,2 @@
-//= require_tree .
-"123".split(//).last(5).to_s
+%x
+ "1,112".delete(',').to_i
