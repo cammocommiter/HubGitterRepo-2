@@ -1,2 +1,2 @@
-inspect
-params, headers, env, xhr, format
+facter fqdn
+gem install rspec
