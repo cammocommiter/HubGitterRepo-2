@@ -1,2 +1,5 @@
-abs
-mattr_accessor
+$ ruby --help
+[...]
+  -W[level]       set warning level; 0=silence, 1=medium, 2=verbose (default)
+
+then
