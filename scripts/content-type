@@ -1,2 +1,2 @@
-assert_raises
-if owner.is_a? thing //worked fine
+$
+random_boolean = [true, false].sample
