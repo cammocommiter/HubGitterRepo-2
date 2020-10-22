@@ -1,1 +1,6 @@
-def this; end
+a = ["A", "B", "C", "B", "A"]
+a.detect{ |e| a.count(e) > 1 }
+
+# Two ways to achieve the same result (any Ruby version)
+my_hash.each{ |_,str| str.gsub! /^|$/, '%' }
+my_hash.each{ |_,str| str.replace "%#{str}%" }
