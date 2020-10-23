@@ -1,2 +1,2 @@
-fold
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM 
+ Time 
+[x*x for x in values if x > 15]
