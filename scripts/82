@@ -1,2 +1,4 @@
-DECIMAL
-require "whenever"
+>> "1,2,3,4".split(",")
+=> ["1", "2", "3", "4"]
+
+params[:foo]
