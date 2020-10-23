@@ -1,6 +1,5 @@
-respond_to_missing?
-> begin; lambda { return 1 }.call end
-1
-> begin; Proc.new { return 1 }.call end
-LocalJumpError: unexpected return
-...
+File.open('shipping_label.gif', 'wb') do |f|
+  f.write(Base64.decode64(base_64_encoded_data))
+end
+
+*
