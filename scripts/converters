@@ -1,6 +1,2 @@
-STDIN
-after_commit :callback, 
-  if: proc { |record| 
-    record.previous_changes.key?(:attribute) &&
-      record.previous_changes[:attribute].first != record.previous_changes[:attribute].last
-  }
+==
+Hash::[]
