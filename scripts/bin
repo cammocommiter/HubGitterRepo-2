@@ -1,10 +1,7 @@
-string = ""
+gem install libv8 -v '3.16.14.3' -- --with-system-v8
 
-unless string.to_s.strip.empty?
-  # ...
-end
-
-app/
-  commands/
-    products/create_command.rb         # Products::CreateCommand
-    products/update_price_command.rb   # Products::UpdatePriceCommand
+  # Runs a subprocess and applies handlers for stdout and stderr
+  # Params:
+  # +command+:: command line string to be executed by the system
+  # +outhandler+:: +Proc+ object that takes a pipe object as first and only param (may be nil)
+  # +errhandler+:: +Proc+ object that takes a pipe object as first and only param (may be nil)
