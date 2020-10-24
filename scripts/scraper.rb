@@ -1,2 +1,2 @@
-brew install ruby
-kind_of?
+helper_method
+&:
