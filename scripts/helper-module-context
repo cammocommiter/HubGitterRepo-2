@@ -1,5 +1,8 @@
-File.open('shipping_label.gif', 'wb') do |f|
-  f.write(Base64.decode64(base_64_encoded_data))
+def median(array)
+  return nil if array.empty?
+  sorted = array.sort
+  len = sorted.length
+  (sorted[(len - 1) / 2] + sorted[len / 2]) / 2.0
 end
 
-*
+create
