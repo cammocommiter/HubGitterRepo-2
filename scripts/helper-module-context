@@ -1,8 +1,14 @@
-def median(array)
-  return nil if array.empty?
-  sorted = array.sort
-  len = sorted.length
-  (sorted[(len - 1) / 2] + sorted[len / 2]) / 2.0
-end
+File.delete(path_to_file) if File.exist?(path_to_file)
 
-create
+(define men '(socrates plato aristotle))
+
+(define (man? x) 
+    (contains? men x))
+
+(define (mortal? x) 
+    (man? x))
+
+;; test
+
+> (mortal? 'socrates)
+=> #t
