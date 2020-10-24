@@ -1,2 +1,2 @@
-destroy_all
-to_s
+x++
+:foo
