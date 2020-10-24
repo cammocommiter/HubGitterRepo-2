@@ -1,2 +1,2 @@
-%x
- "1,112".delete(',').to_i
+kind_of()
+sudo port install curl-ca-bundle
