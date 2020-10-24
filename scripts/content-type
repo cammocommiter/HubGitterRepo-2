@@ -1,2 +1,2 @@
-$
-random_boolean = [true, false].sample
+User
+User.where.not(id: id)
