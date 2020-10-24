@@ -1,2 +1,8 @@
-x++
-:foo
+begin
+  raise
+rescue => e
+  logger.error e.message
+  logger.error e.backtrace.join("\n")
+end
+
+sudo chown -R $USER /usr/local
