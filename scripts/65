@@ -1,2 +1,2 @@
-kind_of()
-sudo port install curl-ca-bundle
+gemspec
+self.attribute
