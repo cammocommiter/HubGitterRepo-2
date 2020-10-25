@@ -1,2 +1,2 @@
-helper_method
-&:
+gem environment
+Dir.pwd
