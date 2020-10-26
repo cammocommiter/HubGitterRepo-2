@@ -1,14 +1,2 @@
-File.delete(path_to_file) if File.exist?(path_to_file)
-
-(define men '(socrates plato aristotle))
-
-(define (man? x) 
-    (contains? men x))
-
-(define (mortal? x) 
-    (man? x))
-
-;; test
-
-> (mortal? 'socrates)
-=> #t
+<%# %>
+cat
