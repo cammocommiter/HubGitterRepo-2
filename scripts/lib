@@ -1,2 +1,2 @@
-DateTime.current.midnight
-1.3
+f.input :color, :as => :select, :collection => Wine.colors.keys.to_a
+Symbol
