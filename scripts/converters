@@ -1,7 +1,7 @@
-// some_helper.rb
-def new_snazzy_select_tag(options = [])
-  select_tag 'tag_name_here', options.map { |option| [option.id, option.name] }
-end
+expect(array1).to include(*array2)
 
-resources :highlights, :controller => "ads", :type => "Highlight"
-resources :bargains, :controller => "ads", :type => "Bargain"
+class User < ActiveRecord::Base
+  def username=(val)
+    write_attribute(:username, val.downcase)
+  end
+end
