@@ -1,2 +1,8 @@
-$
-make install
+<% form_for(something) do |f| %>
+    ..
+    <%= f.submit 'A' %>
+    <%= f.submit 'B' %>
+    ..
+<% end %>
+
+around_*
