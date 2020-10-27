@@ -1,2 +1,3 @@
-gemspec
-self.attribute
+Record.exists?(record)
+
+if owner.is_a? thing //worked fine
