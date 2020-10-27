@@ -1,2 +1,2 @@
-Regexp.union
-irb(main):015:0> def hi     irb(main):016:1> "hello"     irb(main):017:1> end     => nil     irb(main):018:0> hi.object_id     => 22452528     irb(main):019:0> hi.object_id.send hi     => "hi"     irb(main):020:0> hi.object_id.send(hi)     => "hi"
+finished?
+/generators/clearance_features/templates/features/
