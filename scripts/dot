@@ -1,3 +1,2 @@
-rvm get stable
-
-puts variable.inspect
+with_index
+Set#each
