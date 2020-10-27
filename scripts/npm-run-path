@@ -1,2 +1,2 @@
-stdout
-localhost
+US Standard
+"name LIKE '%?%' OR postal_code LIKE '%?%'", search, search
