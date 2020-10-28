@@ -1,2 +1,8 @@
-'formatstring' % [var1, ...]
-rvm install 1.9.1
+require 'date'
+begin
+   Date.parse("31-02-2010")
+rescue ArgumentError
+   # handle invalid date
+end
+
+extend self
