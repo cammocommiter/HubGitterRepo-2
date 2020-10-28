@@ -1,2 +1,3 @@
-f.input :color, :as => :select, :collection => Wine.colors.keys.to_a
-Symbol
+["10", "20", "50","99"].map(&:inspect).join(', ') # => '"10", "20", "50", "99"'
+
+continue
