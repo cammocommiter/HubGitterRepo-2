@@ -1,2 +1,2 @@
-lowercase_and_underscore.rb
-gem list --remote
+rails generate rspec:install
+uuid-ossp
