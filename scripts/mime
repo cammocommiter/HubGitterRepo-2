@@ -1,1 +1,5 @@
-def this; end
+spring stop
+
+require 'facets'
+[1, 2, 1].frequency == [2, 1, 1].frequency 
+#=> true
