@@ -1,23 +1,2 @@
-def multiple_of(factor)
-  Proc.new{|product| product.modulo(factor).zero?}
-end
-
-case number
-  when multiple_of(3)
-    puts "Multiple of 3"
-  when multiple_of(7)
-    puts "Multiple of 7"
-end
-
-# spec/my_spec.rb
-describe SomeContext do
-  it "won't run this" do
-    raise "never reached"
-  end
-
-  it "will run this", :focus => true do
-    1.should == 1
-  end
-end
-
-$ rspec --tag focus spec/my_spec.rb
+module_function
+disable-binary
