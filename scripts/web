@@ -1,1 +1,3 @@
-def this; end
+" "
+require 'pp'
+pp my_hash
