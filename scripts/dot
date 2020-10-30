@@ -1,2 +1,3 @@
-with_index
-Set#each
+`sleep --help`
+
+ENV['COLUMNS']
