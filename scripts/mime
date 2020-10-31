@@ -1,5 +1,13 @@
-spring stop
+create_table :my_table, id: false do |t|
+  t.string :key_column
+  t.string :value_column
+end
 
-require 'facets'
-[1, 2, 1].frequency == [2, 1, 1].frequency 
-#=> true
+module Crawler
+  def self.logger
+    @logger
+  end
+  def self.logger=(logger)
+    @logger = logger
+  end
+end
