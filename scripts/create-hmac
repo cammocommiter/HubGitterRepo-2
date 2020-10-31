@@ -1,2 +1,3 @@
-rails generate rspec:install
-uuid-ossp
+File.open(filename).grep(/string/)
+
+'formatstring' % [var1, ...]
