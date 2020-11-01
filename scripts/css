@@ -1,8 +1,3 @@
-require 'date'
-begin
-   Date.parse("31-02-2010")
-rescue ArgumentError
-   # handle invalid date
-end
-
-extend self
+rails runner
+$ sudo apt-get install zlib1g-dev
+$ rvm reinstall 1.9.3
