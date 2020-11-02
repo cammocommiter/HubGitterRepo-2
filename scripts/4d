@@ -1,2 +1,4 @@
-finished?
-/generators/clearance_features/templates/features/
+run "cd #{current_path} && RAILS_ENV=production unicorn_rails -c config/unicorn.rb -D"
+
+sudo xcode-select --install
+sudo xcodebuild -license accept
