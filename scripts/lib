@@ -1,3 +1,2 @@
-["10", "20", "50","99"].map(&:inspect).join(', ') # => '"10", "20", "50", "99"'
-
-continue
+soap/wsdlDriver
+def hello() :hello end
