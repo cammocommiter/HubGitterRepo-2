@@ -1,19 +1,6 @@
-nil
-# bad (+ a warning)
-if v = array.grep(/foo/)
-  do_something(v)
-  # some code
+class Person
+  attr_accessor :age
+  ...
 end
 
-# good (MRI would still complain, but RuboCop won't)
-if (v = array.grep(/foo/))
-  do_something(v)
-  # some code
-end
-
-# good
-v = array.grep(/foo/)
-if v
-  do_something(v)
-  # some code
-end
+brew install ruby
