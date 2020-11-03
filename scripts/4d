@@ -1,9 +1,6 @@
-: jmglov@laurana; sudo gem install htmlentities
-Successfully installed htmlentities-4.2.4
-: jmglov@laurana;  irb
-irb(main):001:0> require 'htmlentities'
-=> []
-irb(main):002:0> HTMLEntities.new.decode "&iexcl;I&#39;m highly&nbsp;annoyed with character references!"
-=> "¡I'm highly annoyed with character references!"
+instance_methods
+string = "line #1"\
+         "line #2"\
+         "line #3"
 
-ruby 2.0.0p0 (2013-02-24)
+p string # => "line #1line #2line #3"
