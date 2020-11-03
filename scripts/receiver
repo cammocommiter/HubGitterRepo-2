@@ -1,2 +1,3 @@
-module_function
-disable-binary
+bundle update gem-name 
+
+form.schedule :as => :recurring
