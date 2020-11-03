@@ -1,2 +1,2 @@
-User
-User.where.not(id: id)
+Arrays
+Driver.columns_hash
