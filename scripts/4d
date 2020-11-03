@@ -1,4 +1,9 @@
-run "cd #{current_path} && RAILS_ENV=production unicorn_rails -c config/unicorn.rb -D"
+: jmglov@laurana; sudo gem install htmlentities
+Successfully installed htmlentities-4.2.4
+: jmglov@laurana;  irb
+irb(main):001:0> require 'htmlentities'
+=> []
+irb(main):002:0> HTMLEntities.new.decode "&iexcl;I&#39;m highly&nbsp;annoyed with character references!"
+=> "¡I'm highly annoyed with character references!"
 
-sudo xcode-select --install
-sudo xcodebuild -license accept
+ruby 2.0.0p0 (2013-02-24)
