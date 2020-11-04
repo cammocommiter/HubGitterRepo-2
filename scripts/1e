@@ -1,3 +1,5 @@
-rails g migration change_date_format_in_my_table
-
-foo.rb
+case
+class Person
+  attr_accessor :age
+  ...
+end
