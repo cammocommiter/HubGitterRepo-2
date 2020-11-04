@@ -1,6 +1,5 @@
-class Person
-  attr_accessor :age
-  ...
+def login_success(hsh = {})
+  puts hsh[:msg]
 end
 
-brew install ruby
+class_eval
