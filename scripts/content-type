@@ -1,16 +1,2 @@
-require 'nokogiri'
-
-html = '
-<html>
-  <body>
-    <p>foo</p>
-    <p>bar</p>
-  </body>
-</html>
-'
-
-doc = Nokogiri::HTML(html)
-doc.at('p:contains("bar")').text.strip
-=> "bar"
-
-1.21.15
+new
+capture
