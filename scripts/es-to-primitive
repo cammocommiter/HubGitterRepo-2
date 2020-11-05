@@ -1,2 +1,2 @@
-!variable.nil?
-Hash.new { |h, k| h[k] = [] }
+to_sym
+rvmsudo
