@@ -1,5 +1,3 @@
-def login_success(hsh = {})
-  puts hsh[:msg]
-end
+if_this_is_a_true_value ? then_the_result_is_this : else_it_is_this
 
-class_eval
+/usr/local/var/postgres/
