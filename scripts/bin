@@ -1,2 +1,4 @@
-defined?
-tags.map(&:name.to_proc).join(' ')
+schema_migrations
+hash = {"apple" => "banana", "coconut" => "domino"}
+Hash[hash.map{ |k, v| [k.to_sym, v] }]
+#=> {:apple=>"banana", :coconut=>"domino"}
