@@ -1,3 +1,4 @@
-`sleep --help`
+sudo xcode-select --install
+sudo xcodebuild -license accept
 
-ENV['COLUMNS']
+link = %q[<a href="javascript:method('call')">link</a>]
