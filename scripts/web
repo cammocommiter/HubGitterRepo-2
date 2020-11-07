@@ -1,11 +1,3 @@
-def print_and_flush(str)
-  print str
-  $stdout.flush
-end
+rake time:zones:us
 
-100.times do
-  print_and_flush "."
-  sleep 1
-end
-
-a1
+soap/wsdlDriver
