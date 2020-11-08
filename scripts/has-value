@@ -1,2 +1,6 @@
-tags.map(&:name.to_proc).join(' ')
-include?
+raise new.TriangleError
+
+@comments = Comment.find(:all,
+        :joins => "forum_topics",
+        :conditions => ["forum_topics.featured = ? ", true] 
+        )
