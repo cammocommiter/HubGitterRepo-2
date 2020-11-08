@@ -1,8 +1,5 @@
-def catalog
-  #Makes the request pause 1.5 seconds
-  sleep 1.5
-
-  ...
+get '/hello/:name' do
+    erb :hello, :locals => {:name => params[:name]}
 end
 
-'formatstring' % [var1, ...]
+SCREAMING_SNAKE_CASE
