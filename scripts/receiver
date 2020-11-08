@@ -1,2 +1,3 @@
-Enumerable#reduce
-DateTime.current.midnight
+gem 'unf' 
+
+URI::MailTo::EMAIL_REGEXP
