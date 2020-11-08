@@ -1,3 +1,11 @@
-rake time:zones:us
+begin
+  require 'someFile.rb'
+rescue LoadError
+  puts "someFile.rb was not found, have you"
+  puts "forgotten to specify the -I flag?"
+  exit
+end
 
-soap/wsdlDriver
+respond_to do |format|
+  format.js # actually means: if the client ask for js -> return file.js
+end
