@@ -1,5 +1,3 @@
-case
-class Person
-  attr_accessor :age
-  ...
-end
+shadowing_lvar_gen
+send_data(_data_, options = {})
+send_file(_path_, options = {}) 
