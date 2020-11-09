@@ -1,2 +1,6 @@
-new
-capture
+if
+class Foo
+  def test_method
+    __method__
+  end
+end
