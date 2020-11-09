@@ -1,10 +1,2 @@
-ActiveSupport::Inflector.inflections do |inflect|
-  inflect.irregular 'bonus', 'bonuses'
-end
-
-arr=Array.new
-objects[0..3].each do |obj|
-    arr << obj
-end
-
-p arr;
+scaffold
+~/.gemrc
