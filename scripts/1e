@@ -1,3 +1,10 @@
-shadowing_lvar_gen
-send_data(_data_, options = {})
-send_file(_path_, options = {}) 
+ActiveSupport::Inflector.inflections do |inflect|
+  inflect.irregular 'bonus', 'bonuses'
+end
+
+arr=Array.new
+objects[0..3].each do |obj|
+    arr << obj
+end
+
+p arr;
