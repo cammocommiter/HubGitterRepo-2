@@ -1,4 +1,4 @@
-schema_migrations
-hash = {"apple" => "banana", "coconut" => "domino"}
-Hash[hash.map{ |k, v| [k.to_sym, v] }]
-#=> {:apple=>"banana", :coconut=>"domino"}
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# config/environments/test.rb:
+config.cache_store = :null_store
