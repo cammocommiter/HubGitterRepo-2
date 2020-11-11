@@ -1,4 +1,2 @@
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# config/environments/test.rb:
-config.cache_store = :null_store
+gem install json
+export CPPFLAGS=-I/opt/X11/include
