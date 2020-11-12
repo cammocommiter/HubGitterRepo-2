@@ -1,4 +1,2 @@
-DummyClass.class
-$ ruby --help
-[...]
-  -W[level]       set warning level; 0=silence, 1=medium, 2=verbose (default)
+'formatstring' % [var1, ...]
+update_attribute
