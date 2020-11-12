@@ -1,3 +1,2 @@
-if_this_is_a_true_value ? then_the_result_is_this : else_it_is_this
-
-/usr/local/var/postgres/
+return hashValue.ToString();
+spring stop
