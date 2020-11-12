@@ -1,6 +1,3 @@
-if
-class Foo
-  def test_method
-    __method__
-  end
-end
+x = x or new_value
+
+rake db:seed
