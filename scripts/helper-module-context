@@ -1,5 +1,2 @@
-get '/hello/:name' do
-    erb :hello, :locals => {:name => params[:name]}
-end
-
-SCREAMING_SNAKE_CASE
+#any?
+ApplicationController.any_instance.stub(:current_user)
