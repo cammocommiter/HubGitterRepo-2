@@ -1,2 +1,2 @@
-#any?
-ApplicationController.any_instance.stub(:current_user)
+params, headers, env, xhr, format
+Hash::[]
