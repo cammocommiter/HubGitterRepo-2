@@ -1,7 +1,5 @@
-expect(array1).to include(*array2)
+gem 'machinist_mongo', :require => 'machinist/mongoid', 
+:git => 'http://github.com/nmerouze/machinist_mongo.git',
+:branch => 'machinist2'
 
-class User < ActiveRecord::Base
-  def username=(val)
-    write_attribute(:username, val.downcase)
-  end
-end
+date_select
