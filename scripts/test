@@ -1,3 +1,8 @@
-a.sort == b.sort
+require 'open-uri'
+open('image.png', 'wb') do |file|
+  file << open('http://example.com/image.png').read
+end
 
-users = User.all; nil
+<% @images.each_with_index do |page, index| %>
+
+<% end %>
