@@ -1,3 +1,2 @@
-set :ssh_options, {:forward_agent => true}
-
-'aa'
+#flatten!
+tags.map(&:name.to_proc).join(' ')
