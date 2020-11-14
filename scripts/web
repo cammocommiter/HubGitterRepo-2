@@ -1,2 +1,4 @@
-Hash
-render_404
+require 'fileutils'
+FileUtils.mkdir_p 'cool/beans'
+
+exists?
