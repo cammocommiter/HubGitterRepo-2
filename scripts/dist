@@ -1,14 +1,7 @@
-begin
-  gem "somegem"
-  # with requirements
-  gem "somegem", ">=2.0"
-rescue Gem::LoadError
-  # not installed
-end
+# checking whether foo is a boolean
+!!foo == foo
 
-require 'rubygems'
-require 'ruby-debug'
-x = 23
-puts "welcome"
-debugger
-puts "end"
+>> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
+=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
+>> hash.values
+=> [["a", "b", "c"], ["b", "c"]]
