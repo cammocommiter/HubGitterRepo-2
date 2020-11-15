@@ -1,2 +1,5 @@
-params, headers, env, xhr, format
-Hash::[]
+{ :a => 'a', :b => ('b' if cond) }.delete_if{ |k,v| v.nil? }
+
+require 'resque'
+
+Resque.info 
