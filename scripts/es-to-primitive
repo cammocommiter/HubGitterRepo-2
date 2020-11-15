@@ -1,2 +1,2 @@
-#flatten!
-tags.map(&:name.to_proc).join(' ')
+with_index
+Marshal.load(Marshal.dump(@object))
