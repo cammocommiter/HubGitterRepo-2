@@ -1,3 +1,2 @@
-x = x or new_value
-
-rake db:seed
+round
+false
