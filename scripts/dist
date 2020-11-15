@@ -1,4 +1,14 @@
-env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config
+begin
+  gem "somegem"
+  # with requirements
+  gem "somegem", ">=2.0"
+rescue Gem::LoadError
+  # not installed
+end
 
-arr = ['x', 'o', 'x', '.', '.', 'o', 'x']
-p arr.each_index.select{|i| arr[i] == 'x'} # =>[0, 2, 6]
+require 'rubygems'
+require 'ruby-debug'
+x = 23
+puts "welcome"
+debugger
+puts "end"
