@@ -1,2 +1,3 @@
-return hashValue.ToString();
-spring stop
+//= require jquery_ujs
+
+rake make
