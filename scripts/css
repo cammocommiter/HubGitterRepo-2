@@ -1,3 +1,13 @@
-rails runner
-$ sudo apt-get install zlib1g-dev
-$ rvm reinstall 1.9.3
+repost
+(define men '(socrates plato aristotle))
+
+(define (man? x) 
+    (contains? men x))
+
+(define (mortal? x) 
+    (man? x))
+
+;; test
+
+> (mortal? 'socrates)
+=> #t
