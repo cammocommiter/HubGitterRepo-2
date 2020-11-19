@@ -1,3 +1,8 @@
-/abc(?!$)/
-
-array_of_hashes.any? {|h| h[:a] == 11}
+[1,2,3,5,2].find { |n| puts n; n == 2 } 
+$ sudo vi /etc/paths
+/usr/local/bin
+/usr/local/sbin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
