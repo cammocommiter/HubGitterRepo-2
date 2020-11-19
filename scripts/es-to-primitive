@@ -1,2 +1,3 @@
-with_index
-Marshal.load(Marshal.dump(@object))
+validates_length_of :foo, minimum: 5, maximum: 5, allow_blank: true
+
+Dir.entries
