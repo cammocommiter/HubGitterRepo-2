@@ -1,7 +1,2 @@
-# checking whether foo is a boolean
-!!foo == foo
-
->> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
-=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
->> hash.values
-=> [["a", "b", "c"], ["b", "c"]]
+attr_accessor
+ActiveSupport::CoreExtensions::String::Inflections
