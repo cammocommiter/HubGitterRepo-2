@@ -1,2 +1,5 @@
-STDIN
-unicorn-rails
+wanted_keys = %w[one two]
+x = { "one" => "one", "two" => "two", "three" => "three"}
+x.select { |key,_| wanted_keys.include? key }
+
+Integer
