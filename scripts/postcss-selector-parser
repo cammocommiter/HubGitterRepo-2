@@ -1,2 +1,3 @@
-'formatstring' % [var1, ...]
-update_attribute
+<%= f.hidden_field :service, :value => "test" %>
+
+puts caller[0]
