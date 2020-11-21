@@ -1,3 +1,11 @@
-run "cd #{current_path} && RAILS_ENV=production unicorn_rails -c config/unicorn.rb -D"
+require "open-uri"
 
-Arrays
+class User < ActiveRecord::Base
+  has_attached_file :picture
+
+  def picture_from_url(url)
+    self.picture = open(url)
+  end
+end
+
+Gemfile
