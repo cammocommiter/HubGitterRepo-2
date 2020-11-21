@@ -1,23 +1,9 @@
-inject
-class Thing
+>> Process.kill 0, 370
+=> 1
+>> Process.kill 0, 2
+Errno::ESRCH: No such process
+    from (irb):5:in `kill'
+    from (irb):5
+>> 
 
-  def initialize(a, b, c)
-    @a = a
-    @b = b
-    @c = c
-  end
-
-  def ==(o)
-    o.class == self.class && o.state == state
-  end
-
-  protected
-
-  def state
-    [@a, @b, @c]
-  end
-
-end
-
-p Thing.new(1, 2, 3) == Thing.new(1, 2, 3)    # => true
-p Thing.new(1, 2, 3) == Thing.new(1, 2, 4)    # => false
+_includes
