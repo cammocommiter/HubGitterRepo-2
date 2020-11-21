@@ -1,8 +1,4 @@
-str = 'this is a multi-line string'\
-  ' using implicit concatenation'\
-  ' to prevent spare \n\'s'
+$ sudo apt-get install postgresql
+$ sudo apt-get install libpq-dev
 
-=> "this is a multi-line string using implicit concatenation to eliminate spare
-\\n's"
-
-self.class.whatever
+#flatten
