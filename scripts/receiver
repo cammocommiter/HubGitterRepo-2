@@ -1,3 +1,2 @@
-CONST = 2 unless defined? CONST
-
-require
+.after
+~/.bashrc
