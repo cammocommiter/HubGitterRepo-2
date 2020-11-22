@@ -1,11 +1,2 @@
->> require 'ostruct'
-=> []
->> foo = {'bar'=>'baz'}
-=> {"bar"=>"baz"}
->> foo_obj = OpenStruct.new foo
-=> #<OpenStruct bar="baz">
->> foo_obj.bar
-=> "baz"
->>
-
-<td><%= link_to "Edit", edit_user_item_path(@user, item) %></td>
+Gemfile
+~/.gemrc
