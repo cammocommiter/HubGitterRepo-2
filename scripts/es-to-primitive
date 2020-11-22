@@ -1,3 +1,2 @@
-puts caller[0]
-
-define_method(:say_hi) { |other| puts "Hi, " + other }
+Today
+[name, quest, favorite_color, speed].reject(&:empty?).join(' ')
