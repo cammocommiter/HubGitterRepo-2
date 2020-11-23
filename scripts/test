@@ -1,8 +1,3 @@
-require 'open-uri'
-open('image.png', 'wb') do |file|
-  file << open('http://example.com/image.png').read
-end
+IO.read("filename")
 
-<% @images.each_with_index do |page, index| %>
-
-<% end %>
+reprocess!
