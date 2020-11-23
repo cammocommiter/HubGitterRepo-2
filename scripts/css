@@ -1,13 +1,2 @@
-repost
-(define men '(socrates plato aristotle))
-
-(define (man? x) 
-    (contains? men x))
-
-(define (mortal? x) 
-    (man? x))
-
-;; test
-
-> (mortal? 'socrates)
-=> #t
+Enumerator#with_index
+sudo xcode-select --install
