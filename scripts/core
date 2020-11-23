@@ -1,4 +1,14 @@
-$ sudo apt-get install postgresql
-$ sudo apt-get install libpq-dev
+input_string = "blahblahblahSTARTfoofoofooENDwowowowowo"
+str1_markerstring = "START"
+str2_markerstring = "END"
 
-#flatten
+input_string[/#{str1_markerstring}(.*?)#{str2_markerstring}/m, 1]
+#=> "foofoofoo"
+
+all : usera userb userc....
+
+usera:
+       imapsync usera
+userb:
+       imapsync userb
+....
