@@ -1,2 +1,3 @@
-attr_accessor
-ActiveSupport::CoreExtensions::String::Inflections
+system "clear" || system "cls"
+
+errors[:base] << "Error message"    
