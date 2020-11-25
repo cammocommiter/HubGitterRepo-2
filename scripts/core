@@ -1,14 +1,4 @@
-input_string = "blahblahblahSTARTfoofoofooENDwowowowowo"
-str1_markerstring = "START"
-str2_markerstring = "END"
+gem install eventmachine --pre
+gem install thin
 
-input_string[/#{str1_markerstring}(.*?)#{str2_markerstring}/m, 1]
-#=> "foofoofoo"
-
-all : usera userb userc....
-
-usera:
-       imapsync usera
-userb:
-       imapsync userb
-....
+http://myusername:mypass@www.someapp.com/
