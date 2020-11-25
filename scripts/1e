@@ -1,7 +1,2 @@
-irb(main):001:0> ?c
-=> "c"
-
-hash = { }
-hash[:a] = 'a'
-hash[:a]
-# => 'a'
+string.to_sym
+attr_accessor
