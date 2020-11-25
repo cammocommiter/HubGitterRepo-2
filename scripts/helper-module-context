@@ -1,18 +1,3 @@
-unless Kernel.respond_to?(:require_relative)
-  module Kernel
-    def require_relative(path)
-      require File.join(File.dirname(caller[0]), path.to_str)
-    end
-  end
-end
+hash = Hash.new {|hash, key| hash[key] = f(key) }
 
-def multiple_of(factor)
-  Proc.new{|product| product.modulo(factor).zero?}
-end
-
-case number
-  when multiple_of(3)
-    puts "Multiple of 3"
-  when multiple_of(7)
-    puts "Multiple of 7"
-end
+<%= Time.now.strftime("%m/%d/%Y") %>
