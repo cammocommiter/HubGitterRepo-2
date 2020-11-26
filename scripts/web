@@ -1,24 +1,13 @@
-irb(main):001:0> a = [1, 2, 3, 4, 5]
-=> [1, 2, 3, 4, 5]
-irb(main):002:0> b = [1, 2, 4, 6]
-=> [1, 2, 4, 6]
-irb(main):003:0> a - b
-=> [3, 5]
-irb(main):005:0> b - a
-=> [6]
-irb(main):006:0>
+uninstall
+namespace :my_tasks do
+  task :foo do
+    do_something
+  end
 
-class Api::V1::SessionsController < Devise::SessionsController  
-  def create  
-    respond_to do |format|  
-      format.html { super }  
-      format.json {  
-        warden.authenticate!(:scope => resource_name, :recall => "#{controller_path}#new")  
-        render :status => 200, :json => { :error => "Success" }  
-      }  
-    end  
-  end  
-  def destroy  
-    super  
-  end  
-end  
+  task :bar do
+    do_something_else
+  end
+
+end
+
+task :all => ["my_tasks:foo", "my_tasks:bar"]
