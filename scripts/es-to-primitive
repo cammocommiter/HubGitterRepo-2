@@ -1,2 +1,3 @@
-Today
-[name, quest, favorite_color, speed].reject(&:empty?).join(' ')
+:select
+def some_method
+end
