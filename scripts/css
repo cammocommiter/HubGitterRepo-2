@@ -1,2 +1,5 @@
-Enumerator#with_index
-sudo xcode-select --install
+def plus_one_to_y(x)
+    @y = x + 1
+end
+
+@post.attributes
