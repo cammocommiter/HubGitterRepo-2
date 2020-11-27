@@ -1,3 +1,3 @@
-%i{foo bar}  # => [:foo, :bar]
+Post.delete_all
 
-proc {}
+[x*x for x in values if x > 15]
