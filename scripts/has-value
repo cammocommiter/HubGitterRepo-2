@@ -1,8 +1,5 @@
-Object
-class Ask
-  def self.make_permalink(phrase)
-    phrase.strip.downcase.gsub! /\ +/, '-'
-  end
-end
+user.password = new_password; user.save
+# or
+user.update(password: new_password)
 
-Ask.make_permalink("make a slug out of this line")
+next
