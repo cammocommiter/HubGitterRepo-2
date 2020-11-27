@@ -1,9 +1,3 @@
->> Process.kill 0, 370
-=> 1
->> Process.kill 0, 2
-Errno::ESRCH: No such process
-    from (irb):5:in `kill'
-    from (irb):5
->> 
-
-_includes
+lib/ext/string.rb
+def some_method
+end
