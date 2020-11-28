@@ -1,2 +1,3 @@
-.after
-~/.bashrc
+aptitude purge ruby
+
+change_column :users, :column, :string, :limit => 255
