@@ -1,2 +1,4 @@
-kind_of?
-~/.gemrc
+"String".start_with? "S" # true
+"String".end_with? "4" # false
+
+$stdout
