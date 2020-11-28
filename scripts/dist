@@ -1,3 +1,2 @@
-system "clear" || system "cls"
-
-errors[:base] << "Error message"    
+(1..10).include?(number)
+ld: library not found for -lssl
