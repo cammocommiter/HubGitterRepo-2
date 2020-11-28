@@ -1,3 +1,8 @@
-str.gsub(/\s+/m, ' ').strip.split(" ")
+:main:
+all : usera userb userc....
 
-facter fqdn
+usera:
+       imapsync usera
+userb:
+       imapsync userb
+....
