@@ -1,11 +1,12 @@
-require "open-uri"
-
-class User < ActiveRecord::Base
-  has_attached_file :picture
-
-  def picture_from_url(url)
-    self.picture = open(url)
-  end
+and
+task :build => [:some_other_tasks] do
+  build
 end
 
-Gemfile
+task :build_all do
+  [:debug, :release].each { |t| build t }
+end
+
+def build(type = :debug)
+  # ...
+end
