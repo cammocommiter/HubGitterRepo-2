@@ -1,3 +1,3 @@
-Delayed::Job.find(10).invoke_job # 10 is the job.id
-
-File.directory?("name")
+rake db:test:prepare
+distance_of_time_in_words(3600)
+ => "about 1 hour"
