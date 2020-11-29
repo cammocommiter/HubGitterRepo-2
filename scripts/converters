@@ -1,12 +1,3 @@
-and
-task :build => [:some_other_tasks] do
-  build
-end
+<%= render :partial => 'form', :locals => { :item => @item } %>
 
-task :build_all do
-  [:debug, :release].each { |t| build t }
-end
-
-def build(type = :debug)
-  # ...
-end
+symbolize_names
