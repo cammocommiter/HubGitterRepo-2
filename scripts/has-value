@@ -1,5 +1,5 @@
-user.password = new_password; user.save
-# or
-user.update(password: new_password)
+current_uri = request.env['PATH_INFO']
+# If you are browsing http://example.com/my/test/path, 
+# then above line will yield current_uri as "/my/test/path"
 
-next
+find_all
