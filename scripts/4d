@@ -1,8 +1,6 @@
-Loading development environment (Rails 2.3.2)
->> now = DateTime.now.utc
-=> Sun, 06 Sep 2009 22:27:45 +0000
->> now.in_time_zone('Eastern Time (US & Canada)')
-=> Sun, 06 Sep 2009 18:27:45 EDT -04:00
->> quit
+has_many  :active_events, :through => :event_users, 
+          :class_name => "Event", 
+          :source => :event, 
+          :conditions => ['event_users.active = ?',true]
 
-downto
+  open("http://...", :http_basic_authentication=>[user, password])
