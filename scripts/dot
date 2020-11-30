@@ -1,3 +1,2 @@
-Post.delete_all
-
-[x*x for x in values if x > 15]
+render_views
+Capybara.exact = true
