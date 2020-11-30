@@ -1,8 +1,4 @@
-puts caller
+gem uninstall sass
+gem install sass
 
-def catalog
-  #Makes the request pause 1.5 seconds
-  sleep 1.5
-
-  ...
-end
+try
