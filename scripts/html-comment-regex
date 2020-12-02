@@ -1,3 +1,18 @@
-lib/ext/string.rb
-def some_method
-end
+array = [
+    {:price => 1, :count => 3},
+    {:price => 2, :count => 3},
+    {:price => 3, :count => 3}
+]
+
+(define men '(socrates plato aristotle))
+
+(define (man? x) 
+    (contains? men x))
+
+(define (mortal? x) 
+    (man? x))
+
+;; test
+
+> (mortal? 'socrates)
+=> #t
