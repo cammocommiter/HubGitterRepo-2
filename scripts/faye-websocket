@@ -1,1 +1,3 @@
-def this; end
+my_hash.transform_keys(&:to_sym)
+
+/usr/local/var/postgres/
