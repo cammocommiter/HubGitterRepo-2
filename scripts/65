@@ -1,22 +1,7 @@
-class ActionPusher < AbstractController::Base
-  include AbstractController::Rendering
-  include AbstractController::Helpers
-  include AbstractController::Translation
-  include AbstractController::AssetPaths
-  include Rails.application.routes.url_helpers
-  helper ApplicationHelper
-  self.view_paths = "app/views"
+$ gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include                                                                                                             
+Building native extensions with: '--with-cppflags=-I/usr/local/opt/openssl/include'
+This could take a while...
+Successfully installed eventmachine-1.0.8
+1 gem installed
 
-  class Pushable
-    def initialize(channel, pushtext)
-      @channel = channel
-      @pushtext = pushtext
-    end
-
-    def push
-      Pusher[@channel].trigger('rjs_push', @pushtext )
-    end
-  end
-end
-
-<%= stylesheet_link_tag "filename" %>
+yield
