@@ -1,2 +1,5 @@
-{}
-sudo CC=/usr/bin/gcc-4.2 rvm install --force ree
+wanted_keys = %w[one two]
+x = { "one" => "one", "two" => "two", "three" => "three"}
+x.select { |key,_| wanted_keys.include? key }
+
+Gemfile
