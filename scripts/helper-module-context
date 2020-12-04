@@ -1,3 +1,3 @@
-require 'sidekiq/api'
+gem install mygem
 
-Gemfile
+pry_debug
