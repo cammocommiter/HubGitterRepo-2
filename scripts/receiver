@@ -1,5 +1,2 @@
->> s ="{\"akey\":\"one\",\"bkey\":\"two\"}"
->> JSON.parse(s,:symbolize_names => true)
-=> {:akey=>"one", :bkey=>"two"} 
-
-mattr_accessor
+instance_methods
+ActiveSupport::CoreExtensions::String::Inflections
