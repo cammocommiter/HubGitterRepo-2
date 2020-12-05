@@ -1,3 +1,2 @@
-my_hash.transform_keys(&:to_sym)
-
-/usr/local/var/postgres/
+>= 2.5.0
+instance_variable_get
