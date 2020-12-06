@@ -1,5 +1,2 @@
-def plus_one_to_y(x)
-    @y = x + 1
-end
-
-@post.attributes
+:token_authenticatable
+([2, 6, 13, 99, 27] & [2, 6]).any?
