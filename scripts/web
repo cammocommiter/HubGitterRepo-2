@@ -1,9 +1,7 @@
-GET    /items        #=> index
-GET    /items/1      #=> show
-GET    /items/new    #=> new
-GET    /items/1/edit #=> edit
-PUT    /items/1      #=> update
-POST   /items        #=> create
-DELETE /items/1      #=> destroy
-
-gem "whatever"
+File.dirname(__FILE__)
+ActiveRecord::Base.record_timestamps = false
+begin
+  run_the_code_that_imports_the_data
+ensure
+  ActiveRecord::Base.record_timestamps = true  # don't forget to enable it again!
+end
