@@ -1,2 +1,6 @@
-instance_methods
-ActiveSupport::CoreExtensions::String::Inflections
+case item
+when MyClass
+...
+
+# application.rb
+config.time_zone = 'Eastern Time (US & Canada)'
