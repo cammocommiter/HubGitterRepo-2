@@ -1,6 +1,2 @@
-has_many  :active_events, :through => :event_users, 
-          :class_name => "Event", 
-          :source => :event, 
-          :conditions => ['event_users.active = ?',true]
-
-  open("http://...", :http_basic_authentication=>[user, password])
+DECIMAL
+gem install
