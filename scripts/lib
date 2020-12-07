@@ -1,9 +1,2 @@
-strings.each_with_index do |string, i|
-  begin
-    do_risky_operation(string)
-  rescue Exception => e
-    raise $!, "Problem with string number #{i}: #{$!}", $!.backtrace
-  end
-end
-
-=3f
+return
+string[N..-1]
