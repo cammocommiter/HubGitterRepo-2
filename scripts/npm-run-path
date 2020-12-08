@@ -1,8 +1,2 @@
-:main:
-all : usera userb userc....
-
-usera:
-       imapsync usera
-userb:
-       imapsync userb
-....
+return hashValue.ToString();
+ruby
