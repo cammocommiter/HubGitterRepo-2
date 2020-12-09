@@ -1,2 +1,4 @@
-:token_authenticatable
-([2, 6, 13, 99, 27] & [2, 6]).any?
+list.group_by(&:capitalize).map {|k,v| [k, v.length]}
+#=> [["Master of puppets", 3], ["Enter sandman", 2], ["Nothing else matters", 1]]
+
+--fixture-replacement
