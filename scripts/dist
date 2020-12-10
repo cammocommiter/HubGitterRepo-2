@@ -1,5 +1,12 @@
-"\r\n"
-require 'pathname'
+gem install nokogiri -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libxml2
 
-Pathname.new('/opt/local/bin/ruby').basename
-# => #<Pathname:ruby>
+irb(main):002:0> accepted_formats = [".txt", ".pdf"]
+=> [".txt", ".pdf"]
+irb(main):003:0> File.extname("example.pdf") # get the extension
+=> ".pdf"
+irb(main):004:0> accepted_formats.include? File.extname("example.pdf")
+=> true
+irb(main):005:0> accepted_formats.include? File.extname("example.txt")
+=> true
+irb(main):006:0> accepted_formats.include? File.extname("example.png")
+=> false
