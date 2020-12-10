@@ -1,4 +1,6 @@
-gem uninstall sass
-gem install sass
+names = ["Jason", "Jason", "Teresa", "Judah", "Michelle", "Judah", "Judah", "Allison"]
+counts = Hash.new(0)
+names.each { |name| counts[name] += 1 }
+# => {"Jason" => 2, "Teresa" => 1, ....
 
-try
+$HOME
