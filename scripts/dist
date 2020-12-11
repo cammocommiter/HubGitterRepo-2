@@ -1,2 +1,2 @@
-render ... :location => @user
-RUBY_PLATFORM == "java"
+parameters
+interface
