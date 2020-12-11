@@ -1,12 +1,3 @@
-all
-class B < A
+ruby -run -e httpd . -p 9090
 
-  alias :super_a :a
-
-  def a
-    b()
-  end
-  def b
-    super_a()
-  end
-end  
+cmd
