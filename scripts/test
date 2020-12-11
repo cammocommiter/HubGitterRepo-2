@@ -1,3 +1,12 @@
-IO.read("filename")
+all
+class B < A
 
-reprocess!
+  alias :super_a :a
+
+  def a
+    b()
+  end
+  def b
+    super_a()
+  end
+end  
