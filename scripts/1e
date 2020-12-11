@@ -1,4 +1,16 @@
-secret_token.rb
-# rubocop:disable LineLength
-puts "This line is lonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnng"
-# rubocop:enable LineLength
+#==
+class Foo
+  @@foos = 0
+
+  def initialize
+    @@foos += 1
+  end
+
+  def self.number_of_foos
+    @@foos
+  end
+end
+
+Foo.new
+Foo.new
+Foo.number_of_foos #=> 2
