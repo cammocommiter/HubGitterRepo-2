@@ -1,4 +1,4 @@
-@posts = Post.joins("LEFT OUTER JOIN users ON users.id = posts.user_id").
-              joins(:blog).select
-
-mystring == yourstring
+CC=/usr/local/bin/gcc-4.2 rvm install 1.9.3 --enable-shared
+ARGV.each do|a|
+  puts "Argument: #{a}"
+end
