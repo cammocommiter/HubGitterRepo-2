@@ -1,3 +1,2 @@
-<%= render :partial => 'form', :locals => { :item => @item } %>
-
-symbolize_names
+proc {}
+ruby1.9.1-dev
