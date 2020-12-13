@@ -1,7 +1,2 @@
-File.dirname(__FILE__)
-ActiveRecord::Base.record_timestamps = false
-begin
-  run_the_code_that_imports_the_data
-ensure
-  ActiveRecord::Base.record_timestamps = true  # don't forget to enable it again!
-end
+#sub
+IO.read("filename")
