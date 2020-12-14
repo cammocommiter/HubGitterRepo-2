@@ -1,4 +1,2 @@
-bundle exec rake db:rollback    
-rails destroy model <model_name>
-
-sudo chown -R $USER /usr/local
+included
+SecureRandom
