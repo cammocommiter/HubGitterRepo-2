@@ -1,2 +1,2 @@
-#sub
-IO.read("filename")
+g
+DateTime#to_date
