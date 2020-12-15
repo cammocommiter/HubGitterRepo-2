@@ -1,5 +1,10 @@
-wanted_keys = %w[one two]
-x = { "one" => "one", "two" => "two", "three" => "three"}
-x.select { |key,_| wanted_keys.include? key }
+require 'sinatra'
+use Rack::Logger
 
-Gemfile
+helpers do
+  def logger
+    request.logger
+  end
+end
+
+gem update bundler
