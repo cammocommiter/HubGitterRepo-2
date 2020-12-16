@@ -1,2 +1,2 @@
-g
-DateTime#to_date
+%r{}
+objects.sort_by {|obj| obj.attribute}
