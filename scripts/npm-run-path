@@ -1,2 +1,2 @@
-return hashValue.ToString();
-ruby
+instance_eval
+match
