@@ -1,2 +1,3 @@
-%r{}
-objects.sort_by {|obj| obj.attribute}
+i += 1
+
+ @list.sort_by{|e| e[:time_ago]}
