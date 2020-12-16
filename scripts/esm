@@ -1,3 +1,3 @@
-string[N..-1]
-
-Hash
+p()
+# config/environments/test.rb:
+config.cache_store = :null_store
