@@ -1,16 +1,3 @@
-#==
-class Foo
-  @@foos = 0
+aptitude purge ruby
 
-  def initialize
-    @@foos += 1
-  end
-
-  def self.number_of_foos
-    @@foos
-  end
-end
-
-Foo.new
-Foo.new
-Foo.number_of_foos #=> 2
+transient
