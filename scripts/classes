@@ -1,3 +1,2 @@
-Class#method
-
-arg_dup = ARGV[ 0 ].dup
+rvm --help
+alias_method_chain()
