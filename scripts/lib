@@ -1,2 +1,12 @@
-item
-sub
+$ gem sources
+*** CURRENT SOURCES ***
+
+https://rubygems.org/
+
+class Ask
+  def self.make_permalink(phrase)
+    phrase.strip.downcase.gsub! /\ +/, '-'
+  end
+end
+
+Ask.make_permalink("make a slug out of this line")
