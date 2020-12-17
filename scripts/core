@@ -1,2 +1,5 @@
-:collection
-script/runner
+spec = Gem::Specification.find_by_name("cucumber")
+gem_root = spec.gem_dir
+gem_lib = gem_root + "/lib"
+
+{}
