@@ -1,2 +1,2 @@
-Regexp.union
-Foo = String
+Regexp.escape
+gem 'rack-utf8_sanitizer'
