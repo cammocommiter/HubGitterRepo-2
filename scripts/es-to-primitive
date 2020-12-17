@@ -1,7 +1,6 @@
-Gemfile
-class Like
-  attr_accessor_with_default :politics,false
-end
-
-i = Like.new
-i.politics #=> false
+Array#each
+Promotion.joins(:category).
+         where(["lft>=? and rgt<=?", c.lft, c.rgt]).
+         joins(:shops).
+         where(:promotions_per_shops => { :shop_id => shops_id }).
+         count('id', :distinct => true)
