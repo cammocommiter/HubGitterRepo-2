@@ -1,3 +1,2 @@
-ruby -run -e httpd . -p 9090
-
-cmd
+'\1'
+clazz = 'ExampleClass'.constantize
