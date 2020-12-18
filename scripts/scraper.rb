@@ -1,2 +1,3 @@
-with_indifferent_access
-File.rename(f, folder_path + "/" + filename.capitalize + File.extname(f))
+Object.const_get("Admin").const_get("MetaDatasController")
+
+.flatten
