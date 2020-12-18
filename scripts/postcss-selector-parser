@@ -1,3 +1,21 @@
-Object.const_get("Admin").const_get("MetaDatasController")
+rails generate rspec:install
+class ActionPusher < AbstractController::Base
+  include AbstractController::Rendering
+  include AbstractController::Helpers
+  include AbstractController::Translation
+  include AbstractController::AssetPaths
+  include Rails.application.routes.url_helpers
+  helper ApplicationHelper
+  self.view_paths = "app/views"
 
-RVM
+  class Pushable
+    def initialize(channel, pushtext)
+      @channel = channel
+      @pushtext = pushtext
+    end
+
+    def push
+      Pusher[@channel].trigger('rjs_push', @pushtext )
+    end
+  end
+end
