@@ -1,3 +1,3 @@
-Object.const_get("Admin").const_get("MetaDatasController")
+first('.item').click_link('Agree')
 
-.flatten
+config/database.yml
