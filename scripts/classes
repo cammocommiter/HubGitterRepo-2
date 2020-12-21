@@ -1,3 +1,5 @@
-rails g migration change_date_format_in_my_table
+@search = Model.new_search(params[:search])
+@search.condition.field_starts_with = "prefix"
+@models = @search.all
 
-task :t, [args] => [deps] 
+Set
