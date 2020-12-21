@@ -1,6 +1,2 @@
-app/controllers/pages_controller.rb
-#!/usr/bin/env ruby
-
-puts "$0            : #{$0}"
-puts "__FILE__      : #{__FILE__}"
-puts "$PROGRAM_NAME : #{$PROGRAM_NAME}"
+fire!
+console.log 'hi' for [1..3]
