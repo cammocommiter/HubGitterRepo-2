@@ -1,6 +1,2 @@
-case item
-when MyClass
-...
-
-# application.rb
-config.time_zone = 'Eastern Time (US & Canada)'
+config.yml
+String1.scan(/<([^>]*)>/).last.first
