@@ -1,2 +1,4 @@
->= 2.5.0
-instance_variable_get
+<%=h
+wanted_keys = %w[one two]
+x = { "one" => "one", "two" => "two", "three" => "three"}
+x.select { |key,_| wanted_keys.include? key }
