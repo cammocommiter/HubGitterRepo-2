@@ -1,3 +1,7 @@
-p()
-# config/environments/test.rb:
-config.cache_store = :null_store
+user = User.new
+user.username = "foobar"
+user.save!
+
+X.each_with_index do |item, index|
+  puts "current_index: #{index}"
+end
