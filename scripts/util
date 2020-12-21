@@ -1,2 +1,2 @@
-require 'date'
-with_index
+link_to
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM 
