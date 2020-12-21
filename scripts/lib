@@ -1,3 +1,2 @@
-Id
-> 208 % 11
-=> 10
+config.gem 'paperclip'
+curb
