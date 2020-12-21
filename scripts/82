@@ -1,2 +1,2 @@
-yield
-reject
+script/server
+Digest::SHA512.base64digest(user.password_digest)
