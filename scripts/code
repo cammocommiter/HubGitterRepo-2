@@ -1,8 +1,2 @@
-class Like
-  attr_accessor_with_default :politics,false
-end
-
-i = Like.new
-i.politics #=> false
-
-attr_accessor
+chars
+my_array.find{|x| x.some_test }
