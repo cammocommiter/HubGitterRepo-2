@@ -1,2 +1,5 @@
-^
-request.referer
+db:create
+class Person
+  attr_accessor :age
+  ...
+end
