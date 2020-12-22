@@ -1,2 +1,4 @@
-Regexp.escape
-gem 'rack-utf8_sanitizer'
+send_data(_data_, options = {})
+send_file(_path_, options = {}) 
+
+Spreadsheet
