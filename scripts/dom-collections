@@ -1,1 +1,4 @@
-def this; end
+  # Custom directories with classes and modules you want to be autoloadable.
+  # config.autoload_paths += %W(#{config.root}/extras)
+
+str_array = int_array.map(&:to_s)
