@@ -1,2 +1,4 @@
-'\1'
-clazz = 'ExampleClass'.constantize
+[1,2,3,4].shuffle => [2, 1, 3, 4]
+[1,2,3,4].shuffle => [1, 3, 2, 4]
+
+config.threadsafe!
