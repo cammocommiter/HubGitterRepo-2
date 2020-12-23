@@ -1,9 +1,5 @@
-case item
-when MyClass
-...
+ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
 
-str = "\x12\x34\x56\x78\x9a\xbc\xde\xf1\x23\x45\x67\x89\xab\xcd\xef\x12\x34\x56\x78\x9a".force_encoding('ASCII-8BIT')
-puts CGI.escape str
+def my_method(options = {}) 
 
-
-=> "%124Vx%9A%BC%DE%F1%23Eg%89%AB%CD%EF%124Vx%9A"
+my_method(:width => 400, :height => 50, :show_border => false)
