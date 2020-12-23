@@ -1,2 +1,3 @@
-config.yml
-String1.scan(/<([^>]*)>/).last.first
+Sidekiq.redis {|c| c.del('stat:processed') }
+
+require 'active_support/inflector'
