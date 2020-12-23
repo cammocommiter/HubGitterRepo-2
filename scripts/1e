@@ -1,5 +1,3 @@
-db:create
-class Person
-  attr_accessor :age
-  ...
-end
+gem "foo", path: "/path/to/foo"
+
+assign_attributes
