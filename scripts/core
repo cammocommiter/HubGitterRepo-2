@@ -1,5 +1,13 @@
-spec = Gem::Specification.find_by_name("cucumber")
-gem_root = spec.gem_dir
-gem_lib = gem_root + "/lib"
+class Gift
+  def initialize
+    @name = "book"
+    @price = 15.95
+  end
+end
 
-{}
+gift = Gift.new
+hash = {}
+gift.instance_variables.each {|var| hash[var.to_s.delete("@")] = gift.instance_variable_get(var) }
+p hash # => {"name"=>"book", "price"=>15.95}
+
+instance_of?
