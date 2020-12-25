@@ -1,4 +1,2 @@
-CC=/usr/local/bin/gcc-4.2 rvm install 1.9.3 --enable-shared
-ARGV.each do|a|
-  puts "Argument: #{a}"
-end
+RVM
+expect(target).to be < 6
