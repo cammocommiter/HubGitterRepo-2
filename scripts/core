@@ -1,13 +1,7 @@
-class Gift
-  def initialize
-    @name = "book"
-    @price = 15.95
-  end
-end
+File.open(filename).grep(/string/)
 
-gift = Gift.new
-hash = {}
-gift.instance_variables.each {|var| hash[var.to_s.delete("@")] = gift.instance_variable_get(var) }
-p hash # => {"name"=>"book", "price"=>15.95}
-
-instance_of?
+Promotion.joins(:category).
+         where(["lft>=? and rgt<=?", c.lft, c.rgt]).
+         joins(:shops).
+         where(:promotions_per_shops => { :shop_id => shops_id }).
+         count('id', :distinct => true)
