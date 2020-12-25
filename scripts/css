@@ -1,4 +1,5 @@
-list.group_by(&:capitalize).map {|k,v| [k, v.length]}
-#=> [["Master of puppets", 3], ["Enter sandman", 2], ["Nothing else matters", 1]]
-
---fixture-replacement
+%x
+names = ["Jason", "Jason", "Teresa", "Judah", "Michelle", "Judah", "Judah", "Allison"]
+counts = Hash.new(0)
+names.each { |name| counts[name] += 1 }
+# => {"Jason" => 2, "Teresa" => 1, ....
