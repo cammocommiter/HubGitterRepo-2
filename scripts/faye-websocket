@@ -1,4 +1,6 @@
-<%=h
-wanted_keys = %w[one two]
-x = { "one" => "one", "two" => "two", "three" => "three"}
-x.select { |key,_| wanted_keys.include? key }
+RubyVM::InstructionSequence.compile_option = {
+  :tailcall_optimization => true,
+  :trace_instruction => false
+}
+
+instance_variable_set
