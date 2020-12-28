@@ -1,2 +1,3 @@
-fire!
-console.log 'hi' for [1..3]
+.post{:class => ("gray" unless post.published?)}
+
+define_method(:say_hi) { |other| puts "Hi, " + other }
