@@ -1,5 +1,3 @@
-rvm get stable
+Hash[original_hash.to_a.sample(n)]
 
-rails console
->> require "db/migrate/20090408054532_add_foos.rb"
->> AddFoos.new.up
+has_many :entries
