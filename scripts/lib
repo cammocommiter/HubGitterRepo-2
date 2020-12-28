@@ -1,2 +1,2 @@
-config.gem 'paperclip'
-curb
+image_path
+mail
