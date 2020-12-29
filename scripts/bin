@@ -1,2 +1,2 @@
-then
-rake make
+STDIN
+cats.each { |cat| cat.name }
