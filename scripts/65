@@ -1,2 +1,5 @@
-//= require_tree .
-print
+!!nil   #=> false
+!!"abc" #=> true
+!!false #=> false
+
+Array#uniq
