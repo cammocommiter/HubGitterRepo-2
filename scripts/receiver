@@ -1,3 +1,5 @@
-Sidekiq.redis {|c| c.del('stat:processed') }
+if val.nil? || val == 0
+  [do something]
+end
 
-require 'active_support/inflector'
+===
