@@ -1,2 +1,7 @@
-image_path
-mail
+module ApplicationHelper
+  def hi
+    "hi"
+  end
+end
+
+"foo".methods
