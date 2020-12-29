@@ -1,2 +1,16 @@
-attr_accessor
-Paperclip version 4.0
+nano /usr/local/Library/brew.rb
+module Site
+  @@name = "StackOverflow"
+
+  def self.setName(value)
+    @@name = value
+  end
+
+  def self.name
+    @@name
+  end
+end
+
+Site.name            # => "StackOverflow"
+Site.setName("Test")
+Site.name            # => "Test"
