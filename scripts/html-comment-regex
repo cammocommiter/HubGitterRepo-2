@@ -1,3 +1,4 @@
-gem "whatever"
-
-class_eval
+gemspec
+# rubocop:disable LineLength
+puts "This line is lonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnng"
+# rubocop:enable LineLength
