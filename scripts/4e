@@ -1,1 +1,3 @@
-def this; end
+remove_column :table_name, :column_name
+
+StandardError
