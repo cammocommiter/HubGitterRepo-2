@@ -1,2 +1,2 @@
-rails generate rspec:install
-#each
+IN
+phrase2 = phrase1.dup
