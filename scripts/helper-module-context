@@ -1,3 +1,6 @@
-change_column :users, :column, :string, :limit => 255
-
-update
+mkdir_p
+before { skip }
+# or 
+xdescribe
+# or 
+xcontext
