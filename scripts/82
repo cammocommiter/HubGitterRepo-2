@@ -1,2 +1,14 @@
-ruby
-input = input.gsub(/[^0-9A-Za-z]/, '')
+def plus_one_to_y(x)
+    @y = x + 1
+end
+
+def multiple_of(factor)
+  Proc.new{|product| product.modulo(factor).zero?}
+end
+
+case number
+  when multiple_of(3)
+    puts "Multiple of 3"
+  when multiple_of(7)
+    puts "Multiple of 7"
+end
