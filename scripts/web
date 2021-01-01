@@ -1,3 +1,4 @@
-ruby -run -e httpd . -p 9090
-
-h = Hash[a.zip b] # => {:baz=>1, :bof=>2, :bar=>"world", :foo=>"hello"}
+% brew tap homebrew/homebrew-php
+$ ruby --help
+[...]
+  -W[level]       set warning level; 0=silence, 1=medium, 2=verbose (default)
