@@ -1,2 +1,4 @@
--Wno-error=unused-command-line-argument-hard-error-in-future
-interface
+(1..10).include?(number)
+array.max_by do |element|
+  element.field
+end
