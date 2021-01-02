@@ -1,5 +1,2 @@
-if val.nil? || val == 0
-  [do something]
-end
-
-===
+-Wno-error=unused-command-line-argument-hard-error-in-future
+interface
