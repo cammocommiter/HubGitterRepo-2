@@ -1,7 +1,3 @@
-module ApplicationHelper
-  def hi
-    "hi"
-  end
-end
-
-"foo".methods
+time_ago_in_words
+>> "1,2,3,4".split(",")
+=> ["1", "2", "3", "4"]
