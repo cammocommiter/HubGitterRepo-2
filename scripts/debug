@@ -1,5 +1,11 @@
-name1 = "John"
-name2 = "Mary"
-"hello, #{name1}.  Where is #{name2}?"
+class A
+  define_singleton_method :loudly do |message|
+    puts message.upcase
+  end
+end
 
-str = "0" * 999999
+A.loudly "my message"
+
+# >> MY MESSAGE
+
+mkdir_p
