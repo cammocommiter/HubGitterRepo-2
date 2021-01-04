@@ -1,6 +1,2 @@
-class Person
-  attr_accessor :age
-  ...
-end
-
-include?
+round_off
+destroy
