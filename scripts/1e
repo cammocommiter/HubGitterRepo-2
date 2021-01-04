@@ -1,3 +1,2 @@
-  adapter: postgresql
-
-to_i
+!variable.nil?
+render_views
