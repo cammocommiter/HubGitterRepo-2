@@ -1,11 +1,2 @@
-class A
-  define_singleton_method :loudly do |message|
-    puts message.upcase
-  end
-end
-
-A.loudly "my message"
-
-# >> MY MESSAGE
-
-mkdir_p
+number_with_delimiter
+# frozen_string_literal: true
