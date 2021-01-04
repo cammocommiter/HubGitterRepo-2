@@ -1,3 +1,6 @@
-@games = @data.sort_by {|x| [x.game_date, x.team] }
+class Person
+  attr_accessor :age
+  ...
+end
 
-application_controller.rb
+include?
