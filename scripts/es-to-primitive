@@ -1,6 +1,3 @@
-Array#each
-Promotion.joins(:category).
-         where(["lft>=? and rgt<=?", c.lft, c.rgt]).
-         joins(:shops).
-         where(:promotions_per_shops => { :shop_id => shops_id }).
-         count('id', :distinct => true)
+bash < <(curl -L https://raw.github.com/gist/1333785)
+
+validates :network_id, :numericality => true, :allow_nil => true
