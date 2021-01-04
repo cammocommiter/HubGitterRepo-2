@@ -1,2 +1,2 @@
-simple_format
-time.in_time_zone(time_zone)
+script/server
+config.gem 'paperclip'
