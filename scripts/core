@@ -1,3 +1,2 @@
-$stdout
-"String".start_with? "S" # true
-"String".end_with? "4" # false
+nil
+$ rvm upgrade 1.9.2-p136 1.9.2-p180
