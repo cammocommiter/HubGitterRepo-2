@@ -1,4 +1,7 @@
-(1..10).include?(number)
-array.max_by do |element|
-  element.field
-end
+Promotion.joins(:category).
+         where(["lft>=? and rgt<=?", c.lft, c.rgt]).
+         joins(:shops).
+         where(:promotions_per_shops => { :shop_id => shops_id }).
+         count('id', :distinct => true)
+
+'-- \n'
