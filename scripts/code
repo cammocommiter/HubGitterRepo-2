@@ -1,2 +1,3 @@
-chars
-my_array.find{|x| x.some_test }
+<%= Time.now.strftime("%m/%d/%Y") %>
+
+::foreach, ::open, ::read, and ::readlines
