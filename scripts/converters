@@ -1,2 +1,2 @@
-script/server
-config.gem 'paperclip'
+instance_methods
+Object
