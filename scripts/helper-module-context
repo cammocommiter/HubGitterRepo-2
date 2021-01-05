@@ -1,6 +1,6 @@
-mkdir_p
-before { skip }
-# or 
-xdescribe
-# or 
-xcontext
+parsed = json && json.length >= 2 ? JSON.parse(json) : nil
+
+has_many  :active_events, :through => :event_users, 
+          :class_name => "Event", 
+          :source => :event, 
+          :conditions => ['event_users.active = ?',true]
