@@ -1,2 +1,5 @@
-code completion
-sudo
+/
+  you = Human.new
+  if you.respond_to?(:knock)
+    ...
+  end
