@@ -1,3 +1,2 @@
-<%= Time.now.strftime("%m/%d/%Y") %>
-
-::foreach, ::open, ::read, and ::readlines
+-O
+:param
