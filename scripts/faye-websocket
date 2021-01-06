@@ -1,2 +1,20 @@
-rm -rf ~/.rvm
-git remote -v
+uuid-ossp
+module Common
+  def foo
+    puts 'foo'
+  end
+end
+
+class A
+  extend Common
+end
+
+class B
+  extend Common
+end
+
+class C
+  extend Common
+end
+
+A.foo
