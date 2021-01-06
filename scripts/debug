@@ -1,2 +1,3 @@
-number_with_delimiter
-# frozen_string_literal: true
+console.log 'hi' for [1..3]
+
+and_call_original
