@@ -1,2 +1,2 @@
-bundle config github.https true
-Id
+Module.const_get
+uuid-ossp
