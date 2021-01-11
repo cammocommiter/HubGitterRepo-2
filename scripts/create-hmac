@@ -1,2 +1,2 @@
-RVM
-expect(target).to be < 6
+File.expand_path
+gem install bundler
