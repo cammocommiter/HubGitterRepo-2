@@ -1,2 +1,7 @@
-Module.const_get
-uuid-ossp
+module ApplicationHelper
+  def hi
+    "hi"
+  end
+end
+
+Hash[ keys.zip(values) ]
