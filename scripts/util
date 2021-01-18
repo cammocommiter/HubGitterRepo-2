@@ -1,7 +1,2 @@
-module ApplicationHelper
-  def hi
-    "hi"
-  end
-end
-
-Hash[ keys.zip(values) ]
+Time.now.utc
+float
