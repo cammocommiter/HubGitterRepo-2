@@ -1,2 +1,2 @@
-require 'activesupport'
-cmd
+reject
+sentence.sub! 'Robert', 'Joe'
