@@ -1,20 +1,3 @@
-uuid-ossp
-module Common
-  def foo
-    puts 'foo'
-  end
-end
+sudo apt-get install libpq-dev
 
-class A
-  extend Common
-end
-
-class B
-  extend Common
-end
-
-class C
-  extend Common
-end
-
-A.foo
+Process
