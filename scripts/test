@@ -1,3 +1,2 @@
-data.each_slice(3) {|slice| ... }
-
-u
+variableName[/regular expression/]
+Time
