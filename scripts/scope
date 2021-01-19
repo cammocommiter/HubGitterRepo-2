@@ -1,2 +1,2 @@
-:binary
-sleep(num_secs)
+ENV['COLUMNS']
+file=File.open("input_file", "r:ISO-8859-1")
