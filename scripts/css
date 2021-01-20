@@ -1,2 +1,2 @@
-Goto symbol
-match
+rubocop --auto-gen-config
+sh(1),
