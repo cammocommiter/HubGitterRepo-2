@@ -1,2 +1,12 @@
-variableName[/regular expression/]
-Time
+<% ... %>
+class Foo
+  def self.some_method
+    sleep 5
+  end
+end
+
+it "should call sleep" do
+  Foo.stub!(:sleep)
+  Foo.should_receive(:sleep).with(5)
+  Foo.some_method
+end
