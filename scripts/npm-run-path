@@ -1,3 +1,2 @@
-Hash[original_hash.to_a.sample(n)]
-
-has_many :entries
+%x
+-1
