@@ -1,5 +1,6 @@
-!!nil   #=> false
-!!"abc" #=> true
-!!false #=> false
-
-Array#uniq
+rvm use 1.9.3 --default
+RUBY_VERSION # => "1.9.2"
+bashrc = ENV['HOME'] + '/.bashrc'
+File.exist?(bashrc) # => true
+File.file?(bashrc)  # => true
+File.directory?(bashrc) # => false
