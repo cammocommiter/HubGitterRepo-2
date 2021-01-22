@@ -1,2 +1,2 @@
-!variable.nil?
-render_views
+child_process.exec
+pretty_generate()
