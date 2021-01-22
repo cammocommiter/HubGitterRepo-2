@@ -1,2 +1,2 @@
-child_process.exec
-pretty_generate()
+rubocop --auto-gen-config
+mattr_accessor
