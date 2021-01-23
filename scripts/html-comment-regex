@@ -1,7 +1,2 @@
-def foo
-  ...
-rescue
-  ...
-end
-
-ldap_get(base_dn, filter, nil, X)
+Array#uniq
+Enumerable#sum
