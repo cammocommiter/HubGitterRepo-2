@@ -1,2 +1,2 @@
-reject
-sentence.sub! 'Robert', 'Joe'
+database.yml
+Makefile
