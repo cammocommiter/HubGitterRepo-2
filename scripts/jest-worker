@@ -1,4 +1,15 @@
-sudo apt-get update
-sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+gem 'rails', '3.1.0.rc4’
 
-sprintf '%02d', n
+def a(skip)
+  caller(skip)
+end
+def b(skip)
+  a(skip)
+end
+def c(skip)
+  b(skip)
+end
+c(0) #=> ["prog:2:in `a'", "prog:5:in `b'", "prog:8:in `c'", "prog:10"]
+c(1) #=> ["prog:5:in `b'", "prog:8:in `c'", "prog:11"]
+c(2) #=> ["prog:8:in `c'", "prog:12"]
+c(3) #=> ["prog:13"]
