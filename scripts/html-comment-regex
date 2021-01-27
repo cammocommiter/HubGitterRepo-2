@@ -1,2 +1,2 @@
-Array#uniq
-Enumerable#sum
+merge!
+first, *rest = ex.split(/, /)
