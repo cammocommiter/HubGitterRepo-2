@@ -1,12 +1,14 @@
-<% ... %>
-class Foo
-  def self.some_method
-    sleep 5
-  end
-end
+Hash
+module MyGem
+  describe "CLI" do
+    context "execute" do
 
-it "should call sleep" do
-  Foo.stub!(:sleep)
-  Foo.should_receive(:sleep).with(5)
-  Foo.some_method
+      it "should exit cleanly when -h is used" do
+        argv=["-h"]
+        out = StringIO.new
+        lambda { ::MyGem::CLI.execute( out, argv) }.should raise_error SystemExit
+      end
+
+    end
+  end
 end
