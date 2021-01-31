@@ -1,3 +1,8 @@
-@search_query = @search_query.gsub(/[^0-9a-z ]/i, '')
-
-rvm install rubygems <version>
+bundle install
+def do_division_by_zero; 5 / 0; end
+begin
+  do_division_by_zero
+rescue => exception
+  puts exception.backtrace
+  raise # always reraise
+end
