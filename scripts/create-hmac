@@ -1,2 +1,4 @@
-@@
-strftime
+Post.delete_all
+
+>> Float::INFINITY #=> Infinity
+>> 3 < Float::INFINITY #=> true
