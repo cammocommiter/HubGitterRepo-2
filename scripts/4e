@@ -1,8 +1,9 @@
-bundle install
-def do_division_by_zero; 5 / 0; end
-begin
-  do_division_by_zero
-rescue => exception
-  puts exception.backtrace
-  raise # always reraise
+cat = String.new("cat")
+def cat.speak
+    'miaow'
 end
+cat.speak #=> "miaow" 
+cat.singleton_methods #=> ["speak"] 
+
+require "csv"
+parsed_file = CSV.read("path-to-file.csv", { :col_sep => "\t" })
