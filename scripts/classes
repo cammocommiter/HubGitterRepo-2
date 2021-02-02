@@ -1,5 +1,8 @@
-@search = Model.new_search(params[:search])
-@search.condition.field_starts_with = "prefix"
-@models = @search.all
+require 'pathname'
 
-Set
+Pathname.new('/opt/local/bin/ruby').basename
+# => #<Pathname:ruby>
+
+gem install rubygems-update
+update_rubygems
+gem update --system
