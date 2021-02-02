@@ -1,14 +1,4 @@
->> hash = { "a"=>["a", "b", "c"], "b"=>["b", "c"] }
-=> {"a"=>["a", "b", "c"], "b"=>["b", "c"]}
->> hash.values
-=> [["a", "b", "c"], ["b", "c"]]
-
-require "open-uri"
-
-class User < ActiveRecord::Base
-  has_attached_file :picture
-
-  def picture_from_url(url)
-    self.picture = open(url)
-  end
-end
+options
+<% @posts.each do |post| %>
+  <%= render 'middle', :post => post %>
+<% end %>
