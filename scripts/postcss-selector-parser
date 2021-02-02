@@ -1,2 +1,15 @@
-gemset empty
-gem list rhc --remote --all
+require 'rake'
+
+Rake::Task.clear # necessary to avoid tasks being loaded several times in dev mode
+Sample::Application.load_tasks # providing your application name is 'sample'
+
+class RakeController < ApplicationController
+
+  def run
+    Rake::Task[params[:task]].reenable # in case you're going to invoke the same task second time.
+    Rake::Task[params[:task]].invoke
+  end
+
+end
+
+core_ext
