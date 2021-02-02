@@ -1,2 +1,2 @@
-.flatten
-Foo.constants
+HTTP_USER_AGENT
+lowercase_and_underscore.rb
