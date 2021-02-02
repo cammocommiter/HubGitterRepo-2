@@ -1,4 +1,2 @@
-% brew tap homebrew/homebrew-php
-$ ruby --help
-[...]
-  -W[level]       set warning level; 0=silence, 1=medium, 2=verbose (default)
+<%
+  open("http://...", :http_basic_authentication=>[user, password])
