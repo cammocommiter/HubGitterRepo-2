@@ -1,16 +1,2 @@
-development:
-  adapter: postgresql
-  encoding: unicode
-  database: blog_development
-  pool: 5
-  username: blog
-  password:
-  host: localhost
-
-def noise=(noise)
-  @noise = noise
-end
-
-def last_noise
-  @noise
-end
+$
+parameters
