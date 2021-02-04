@@ -1,2 +1,2 @@
-ENV['COLUMNS']
-file=File.open("input_file", "r:ISO-8859-1")
+create()
+git remote -v
