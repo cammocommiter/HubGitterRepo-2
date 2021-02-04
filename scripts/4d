@@ -1,5 +1,5 @@
-ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
+gem 'ruby-oci8', '=1.0.7'
+require 'oci8'           # example is confusing; file required (oci8.rb) is not 
+                         # same name as gem, as is frequently the case
 
-def my_method(options = {}) 
-
-my_method(:width => 400, :height => 50, :show_border => false)
+'-- \n'
