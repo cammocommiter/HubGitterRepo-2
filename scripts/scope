@@ -1,2 +1,2 @@
-create()
-git remote -v
+.nil?
+ensure
