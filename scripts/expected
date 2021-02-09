@@ -1,8 +1,9 @@
-File.dirname(__FILE__)
+$ gem uninstall libv8
+$ gem install therubyracer
 
-def valid_json?(json)
-    JSON.parse(json)
-    return true
-  rescue JSON::ParserError => e
-    return false
+class MyController < ApplicationController
+  def my_method
+    # Lots of stuff
+  end
+  helper_method :my_method
 end
