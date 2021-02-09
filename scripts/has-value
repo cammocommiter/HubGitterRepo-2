@@ -1,6 +1,2 @@
-irb(main):068:0> str = "Angry Birds 2.4.1"
-=> "Angry Birds 2.4.1"
-irb(main):069:0> str.rpartition(' ')
-=> ["Angry Birds", " ", "2.4.1"]
-
-modelb
+Kernel#rand
+protect_from_forgery with: :exception
