@@ -1,2 +1,2 @@
-HTTP_USER_AGENT
-lowercase_and_underscore.rb
+config.gem 'paperclip'
+!=
