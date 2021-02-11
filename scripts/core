@@ -1,2 +1,3 @@
-scaffold
-include?
+key, value = hash.first
+
+<%= stylesheet_link_tag "filename" %>
