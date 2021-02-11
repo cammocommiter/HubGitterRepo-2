@@ -1,8 +1,2 @@
-require 'pathname'
-
-Pathname.new('/opt/local/bin/ruby').basename
-# => #<Pathname:ruby>
-
-gem install rubygems-update
-update_rubygems
-gem update --system
+raise
+$:.unshift File.dirname(__FILE__)
