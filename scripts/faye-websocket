@@ -1,3 +1,2 @@
-"abc12def34ghijklmno567pqrs".to_enum(:scan, /\d+/).map { Regexp.last_match }
-
-&
+File.expand_path
+User.where.not(id: id)
