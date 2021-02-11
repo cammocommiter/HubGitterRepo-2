@@ -1,4 +1,6 @@
-"String".start_with? "S" # true
-"String".end_with? "4" # false
+$ gem sources
+*** CURRENT SOURCES ***
 
-gem 'aws-sdk', '< 2.0'
+https://rubygems.org/
+
+class << self
