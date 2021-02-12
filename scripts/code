@@ -1,2 +1,12 @@
--O
-:param
+  task :my_task do
+    run "my_command"
+  end
+
+class CustomException < StandardError
+  def initialize(data)
+    @data = data
+  end
+end
+# => nil 
+raise CustomException.new(bla: "blupp")
+# CustomException: CustomException
