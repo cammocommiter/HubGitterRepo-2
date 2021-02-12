@@ -1,2 +1,4 @@
-.nil?
-ensure
+bundle install
+def my_method(options = {}) 
+
+my_method(:width => 400, :height => 50, :show_border => false)
