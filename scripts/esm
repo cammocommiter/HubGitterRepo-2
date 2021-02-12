@@ -1,2 +1,5 @@
-:main:
-Array#each
+if [ -f "$HOME/.bashrc" ]; then
+  source $HOME/.bashrc
+fi
+
+ % ruby_program | another_program
