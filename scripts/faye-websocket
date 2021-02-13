@@ -1,2 +1,2 @@
-File.expand_path
-User.where.not(id: id)
+to_s
+Ctrl+L
