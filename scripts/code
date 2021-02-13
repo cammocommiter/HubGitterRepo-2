@@ -1,12 +1,10 @@
-  task :my_task do
-    run "my_command"
+module Crawler
+  def self.logger
+    @logger
   end
-
-class CustomException < StandardError
-  def initialize(data)
-    @data = data
+  def self.logger=(logger)
+    @logger = logger
   end
 end
-# => nil 
-raise CustomException.new(bla: "blupp")
-# CustomException: CustomException
+
+spring stop
