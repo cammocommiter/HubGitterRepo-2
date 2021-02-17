@@ -1,5 +1,3 @@
-require 'cgi'
+RUBY_PLATFORM == "java"
 
-CGI::parse('param1=value1&param2=value2&param3=value3')
-
-OSX el Capitan
+Integer
