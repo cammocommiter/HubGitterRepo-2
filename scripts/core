@@ -1,3 +1,2 @@
-key, value = hash.first
-
-<%= stylesheet_link_tag "filename" %>
+&
+scope :desc, order("events.event_at DESC")
