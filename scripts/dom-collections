@@ -1,5 +1,3 @@
-/
-  you = Human.new
-  if you.respond_to?(:knock)
-    ...
-  end
+Marshal.load(Marshal.dump(@object))
+
+except
