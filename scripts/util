@@ -1,9 +1,16 @@
-class User < ActiveRecord::Base
-  def username=(val)
-    write_attribute(:username, val.downcase)
+['one','two','three'].take(2)
+
+class Foo
+  private
+  def bar(value)
+    puts "value = #{value}"
   end
 end
 
-rvm autolibs homebrew
-rvm install 2.1.1
-rvm use 2.1.1
+f = Foo.new
+begin
+  f.bar("This won't work")
+rescue Exception=>e
+  puts "That didn't work: #{e}"
+end
+f.instance_eval{ bar("But this does") }
