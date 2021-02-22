@@ -1,4 +1,3 @@
-Post.delete_all
+apt-get install ruby-dev
 
->> Float::INFINITY #=> Infinity
->> 3 < Float::INFINITY #=> true
+$HOME/.rbenv/shims
