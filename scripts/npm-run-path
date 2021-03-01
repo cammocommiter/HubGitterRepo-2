@@ -1,4 +1,2 @@
-options
-<% @posts.each do |post| %>
-  <%= render 'middle', :post => post %>
-<% end %>
+set re=1
+sudo apt-get install ruby1.9
