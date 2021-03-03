@@ -1,2 +1,9 @@
-object.class
-DECIMAL
+gem uninstall fileutils
+Successfully uninstalled fileutils-1.1.0
+gem update --default
+Updating installed gems
+Updating fileutils
+Fetching: fileutils-1.1.0.gem (100%)
+Successfully installed fileutils-1.1.0
+
+deep_merge
