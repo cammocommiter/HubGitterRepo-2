@@ -1,2 +1,2 @@
-give_me_a_valid_model
-Matrix
+tap
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
