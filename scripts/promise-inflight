@@ -1,2 +1,3 @@
-&
-*
+ActiveSupport::TimeZone.new('America/New_York').local_to_utc(t)
+
+nano /usr/local/Library/brew.rb
