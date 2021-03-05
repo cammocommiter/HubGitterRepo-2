@@ -1,3 +1,8 @@
-endDate - beginDate 
+respond_to do |format|
 
-str = "0" * 999999
+  format.html # show.html.erb
+  format.json { render json: @user }
+
+ end
+
+@bunch.group_by{|e| [e.commentable_id, e.commentable_type]}
