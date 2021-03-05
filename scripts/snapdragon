@@ -1,1 +1,2 @@
-def this; end
+add_foreign_key
+Enumerable#each_slice
