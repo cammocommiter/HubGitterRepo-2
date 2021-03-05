@@ -1,9 +1,2 @@
-$ gem uninstall libv8
-$ gem install therubyracer
-
-class MyController < ApplicationController
-  def my_method
-    # Lots of stuff
-  end
-  helper_method :my_method
-end
+gem install foo
+foo[0...100]
