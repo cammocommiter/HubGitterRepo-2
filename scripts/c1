@@ -1,3 +1,2 @@
-array = array.uniq
-
-curl -sSL https://raw.githubusercontent.com/rvm/rvm/master/binscripts/rvm-installer | bash -s stable
+x=5
+gem environment
