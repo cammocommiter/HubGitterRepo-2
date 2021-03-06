@@ -1,2 +1,2 @@
-set re=1
-sudo apt-get install ruby1.9
+proc {}
+"\n"
