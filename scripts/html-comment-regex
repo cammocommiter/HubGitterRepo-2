@@ -1,2 +1,3 @@
-:my_key
-TestClass.instance_methods
+$ gem install launchy
+
+chars
