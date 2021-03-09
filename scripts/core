@@ -1,2 +1,4 @@
-&
-scope :desc, order("events.event_at DESC")
+irb(main):001:0> ?c
+=> "c"
+
+-1
