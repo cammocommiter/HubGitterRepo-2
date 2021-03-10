@@ -1,5 +1,9 @@
-array.max_by do |element|
-  element.field
-end
+all : usera userb userc....
 
-find('#some_button').find(:xpath,".//..").fill_in "Name:", :with => name
+usera:
+       imapsync usera
+userb:
+       imapsync userb
+....
+
+'-- \n'
