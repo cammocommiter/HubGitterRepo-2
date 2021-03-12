@@ -1,9 +1,2 @@
-cat = String.new("cat")
-def cat.speak
-    'miaow'
-end
-cat.speak #=> "miaow" 
-cat.singleton_methods #=> ["speak"] 
-
-require "csv"
-parsed_file = CSV.read("path-to-file.csv", { :col_sep => "\t" })
+float
+HTTP PUT
