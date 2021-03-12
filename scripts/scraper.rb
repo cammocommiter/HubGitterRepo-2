@@ -1,2 +1,3 @@
-config.gem 'paperclip'
-!=
+Dir["/path/to/search/*"]
+
+sleep(num_secs)
