@@ -1,2 +1,20 @@
-tap
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+def table_for(collection, *args)
+  p collection: collection, args: args
+end
+
+table_for("one")
+#=> {:collection=>"one", :args=>[]}
+
+table_for("one", "two")
+#=> {:collection=>"one", :args=>["two"]}
+
+table_for "one", "two", "three"
+#=> {:collection=>"one", :args=>["two", "three"]}
+
+table_for("one", "two", "three")
+#=> {:collection=>"one", :args=>["two", "three"]}
+
+table_for("one", ["two", "three"])
+#=> {:collection=>"one", :args=>[["two", "three"]]}
+
+symbolize_names
