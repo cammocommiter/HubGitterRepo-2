@@ -1,2 +1,3 @@
-*
-$stderr
+%i[a b c d].all? {|s| hash.key? s}
+
+z.round(2)
