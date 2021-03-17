@@ -1,2 +1,2 @@
-rubocop --auto-gen-config
-mattr_accessor
+curb
+user.errors.full_messages
