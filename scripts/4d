@@ -1,7 +1,5 @@
-Goto symbol
-# load all the tasks associated with the rails app
-Rails.application.load_tasks
+require 'fileutils'
 
-# get the source locations of actions called by a task
-task_name = 'db:schema:load' # fully scoped task name
-Rake.application[task_name].actions.map(&:source_location)
+FileUtils.rm_rf('directorypath/name')
+
+net-ssh
