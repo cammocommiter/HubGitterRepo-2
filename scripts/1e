@@ -1,2 +1,5 @@
-curb
-user.errors.full_messages
+if __FILE__ == $0
+  # this library may be run as a standalone script
+end
+
+config.my_config_value = 'value'
