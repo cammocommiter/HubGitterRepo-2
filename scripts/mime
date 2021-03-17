@@ -1,3 +1,21 @@
-ruby yourfile.rb
+module Common
+  def foo
+    puts 'foo'
+  end
+end
 
-around_*
+class A
+  extend Common
+end
+
+class B
+  extend Common
+end
+
+class C
+  extend Common
+end
+
+A.foo
+
+Gemfile
