@@ -1,3 +1,2 @@
-array.any?{ |s| s.casecmp(mystr)==0 }
-
-Hash[ keys.zip(values) ]
+123
+<% %>
