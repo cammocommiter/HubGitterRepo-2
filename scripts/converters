@@ -1,2 +1,5 @@
-database.yml
-Makefile
+gem update --system 1.6.2
+
+class MyClass
+  include MyModule
+end
