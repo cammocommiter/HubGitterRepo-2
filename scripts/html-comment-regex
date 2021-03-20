@@ -1,3 +1,23 @@
-$ gem install launchy
+Promotion.joins(:category).
+         where(["lft>=? and rgt<=?", c.lft, c.rgt]).
+         joins(:shops).
+         where(:promotions_per_shops => { :shop_id => shops_id }).
+         count('id', :distinct => true)
 
-chars
+module OS
+    def OS.windows?
+        (/cygwin|mswin|mingw|bccwin|wince|emx/ =~ RUBY_PLATFORM) != nil
+    end
+
+    def OS.mac?
+        (/darwin/ =~ RUBY_PLATFORM) != nil
+    end
+
+    def OS.unix?
+        !OS.windows?
+    end
+
+    def OS.linux?
+        OS.unix? and not OS.mac?
+    end
+end
