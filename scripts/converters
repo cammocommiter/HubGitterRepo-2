@@ -1,5 +1,2 @@
-gem update --system 1.6.2
-
-class MyClass
-  include MyModule
-end
+pluck
+require 'sidekiq/api'
