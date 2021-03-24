@@ -1,2 +1,3 @@
-::new
-(0...8).map { (65 + rand(26)).chr }.join
+  open("http://...", :http_basic_authentication=>[user, password])
+
+Struct.new(:x).new(42) == Struct.new(:x).new(42)
