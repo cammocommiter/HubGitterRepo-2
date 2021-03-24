@@ -1,2 +1,2 @@
-<%
-  open("http://...", :http_basic_authentication=>[user, password])
+Dir.entries
+a.sort == b.sort
