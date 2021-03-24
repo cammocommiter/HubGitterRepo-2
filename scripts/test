@@ -1,2 +1,2 @@
-123
-<% %>
+lowercase_and_underscore.rb
+gem 'pg', '~> 0.18'
