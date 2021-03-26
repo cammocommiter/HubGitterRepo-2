@@ -1,2 +1,3 @@
-pluck
-require 'sidekiq/api'
+ld: library not found for -lssl
+
+[1..-1]
