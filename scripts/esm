@@ -1,13 +1,9 @@
-first('.item').click_link('Agree')
-
-class Gift
-  def initialize
-    @name = "book"
-    @price = 15.95
-  end
+def self.secret
+  'xxx'
 end
 
-gift = Gift.new
-hash = {}
-gift.instance_variables.each {|var| hash[var.to_s.delete("@")] = gift.instance_variable_get(var) }
-p hash # => {"name"=>"book", "price"=>15.95}
+private_class_method :secret
+
+> foo2 = ->(arg) { arg * 2 }
+> foo2.call "now"
+ => nownow
