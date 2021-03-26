@@ -1,3 +1,2 @@
-  open("http://...", :http_basic_authentication=>[user, password])
-
-Struct.new(:x).new(42) == Struct.new(:x).new(42)
+ActionController::Base
+123
