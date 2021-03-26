@@ -1,2 +1,6 @@
-bundle install --deployment
-env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config
+require 'date'
+
+date = DateTime.parse("2011-05-19 10:30:14")
+formatted_date = date.strftime('%a %b %d %H:%M:%S %Z %Y')
+
+Array::Shift
