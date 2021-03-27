@@ -1,2 +1,23 @@
-ActionController::Base
-123
+~>0.8.5
+$ ruby -v
+ruby 1.9.3p0 (2011-10-30 revision 33570) [x86_64-darwin11.0.0]
+
+$ cat benchmark_quotes.rb
+# As of Ruby 1.9 Benchmark must be required
+require 'benchmark'
+
+n = 1000000
+Benchmark.bm(15) do |x|
+  x.report("assign single") { n.times do; c = 'a string'; end}
+  x.report("assign double") { n.times do; c = "a string"; end}
+  x.report("concat single") { n.times do; 'a string ' + 'b string'; end}
+  x.report("concat double") { n.times do; "a string " + "b string"; end}
+end
+
+$ ruby benchmark_quotes.rb 
+
+                      user     system      total        real
+assign single     0.110000   0.000000   0.110000 (  0.116867)
+assign double     0.120000   0.000000   0.120000 (  0.116761)
+concat single     0.280000   0.000000   0.280000 (  0.276964)
+concat double     0.270000   0.000000   0.270000 (  0.278146)
