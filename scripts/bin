@@ -1,2 +1,24 @@
-gem install
-alias_method
+# As written by @Justice
+class Person
+  def initialize(name, lastName = nil)
+    name = name + " " + lastName unless lastName.nil?
+    @name = name
+  end
+end
+
+
+class Person
+  def initialize(args)
+    name = args["name"]
+    name = name + " " + args["lastName"] unless args["lastName"].nil?
+    @name = name
+  end
+end
+
+class Person
+  def initialize(*args)
+    #Process args (An array)
+  end
+end
+
+libmagic
