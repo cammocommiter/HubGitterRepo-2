@@ -1,2 +1,6 @@
-ReactDOM
-references
+gem install <gem_name>
+before { skip }
+# or 
+xdescribe
+# or 
+xcontext
