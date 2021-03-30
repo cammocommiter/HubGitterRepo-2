@@ -1,12 +1,2 @@
-_includes
-class B < A
-
-  alias :super_a :a
-
-  def a
-    b()
-  end
-  def b
-    super_a()
-  end
-end  
+USER_KEY
+has_children = slate[:person] && slate[:person][:children]
