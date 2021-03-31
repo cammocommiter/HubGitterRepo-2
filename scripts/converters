@@ -1,7 +1,2 @@
-a = "foobar"
-a.slice! "foo"
-=> "foo"
-a
-=> "bar"
-
-any?
+rails_admin
+UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
