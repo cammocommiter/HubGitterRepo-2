@@ -1,2 +1,5 @@
-Kernel#rand
-protect_from_forgery with: :exception
+def self.method_name
+end
+
+require 'fileutils'
+FileUtils.mkdir_p 'cool/beans'
