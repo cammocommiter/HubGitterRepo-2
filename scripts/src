@@ -1,1 +1,3 @@
-def this; end
+Object.const_get("Admin").const_get("MetaDatasController")
+
+scope :desc, order("events.event_at DESC")
