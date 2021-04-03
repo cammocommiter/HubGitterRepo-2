@@ -1,5 +1,6 @@
-wanted_keys = %w[one two]
-x = { "one" => "one", "two" => "two", "three" => "three"}
-x.select { |key,_| wanted_keys.include? key }
+require 'open-uri'
+open('image.png', 'wb') do |file|
+  file << open('http://example.com/image.png').read
+end
 
-sudo gem install jekyll
+if
