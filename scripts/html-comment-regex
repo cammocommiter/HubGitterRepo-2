@@ -1,23 +1,21 @@
-Promotion.joins(:category).
-         where(["lft>=? and rgt<=?", c.lft, c.rgt]).
-         joins(:shops).
-         where(:promotions_per_shops => { :shop_id => shops_id }).
-         count('id', :distinct => true)
+require 'active_record'
 
-module OS
-    def OS.windows?
-        (/cygwin|mswin|mingw|bccwin|wince|emx/ =~ RUBY_PLATFORM) != nil
-    end
+# Change the following to reflect your database settings
+ActiveRecord::Base.establish_connection(
+  adapter:  'mysql2', # or 'postgresql' or 'sqlite3' or 'oracle_enhanced'
+  host:     'localhost',
+  database: 'your_database',
+  username: 'your_username',
+  password: 'your_password'
+)
 
-    def OS.mac?
-        (/darwin/ =~ RUBY_PLATFORM) != nil
-    end
-
-    def OS.unix?
-        !OS.windows?
-    end
-
-    def OS.linux?
-        OS.unix? and not OS.mac?
-    end
+# Define your classes based on the database, as always
+class SomeClass < ActiveRecord::Base
+  #blah, blah, blah
 end
+
+# Now do stuff with it
+puts SomeClass.find :all
+some_class = SomeClass.new
+
+sudo apt-get install libpq-dev
