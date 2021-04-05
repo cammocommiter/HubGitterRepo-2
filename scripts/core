@@ -1,4 +1,2 @@
-DateTime.now.midnight
-DateTime.now.beginning_of_day
-
-all
+foo
+t = Time.at(i)
