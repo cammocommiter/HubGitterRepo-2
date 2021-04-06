@@ -1,1 +1,7 @@
-def this; end
+first = array.shift
+last = array.pop
+process_first_one
+array.each { |x| process_middle_bits }
+process_last_one
+
+{a: 1, b: 2, 'c-c': 3, d: 4}
