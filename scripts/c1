@@ -1,2 +1,2 @@
-USER_KEY
-has_children = slate[:person] && slate[:person][:children]
+&
+cd C:\Ruby193\DevKit
