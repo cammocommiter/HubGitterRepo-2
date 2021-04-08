@@ -1,12 +1,5 @@
-require 'ostruct'
+ar = [{"Vegetable"=>10}, {"Vegetable"=>5}, {"Dry Goods"=>3}, {"Dry Goods"=>2}]
+p ar.inject{|memo, el| memo.merge( el ){|k, old_v, new_v| old_v + new_v}}
+#=> {"Vegetable"=>15, "Dry Goods"=>5}
 
-person = OpenStruct.new
-person.name    = "John Smith"
-person.age     = 70
-person.pension = 300
-
-puts person.name     # -> "John Smith"
-puts person.age      # -> 70
-puts person.address  # -> nil
-
-rand(10 ** 10)
+app/views/shared
