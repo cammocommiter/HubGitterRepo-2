@@ -1,9 +1,23 @@
-gem uninstall fileutils
-Successfully uninstalled fileutils-1.1.0
-gem update --default
-Updating installed gems
-Updating fileutils
-Fetching: fileutils-1.1.0.gem (100%)
-Successfully installed fileutils-1.1.0
+reject
+class Thing
 
-deep_merge
+  def initialize(a, b, c)
+    @a = a
+    @b = b
+    @c = c
+  end
+
+  def ==(o)
+    o.class == self.class && o.state == state
+  end
+
+  protected
+
+  def state
+    [@a, @b, @c]
+  end
+
+end
+
+p Thing.new(1, 2, 3) == Thing.new(1, 2, 3)    # => true
+p Thing.new(1, 2, 3) == Thing.new(1, 2, 4)    # => false
