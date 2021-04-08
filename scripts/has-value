@@ -1,5 +1,2 @@
-def self.method_name
-end
-
-require 'fileutils'
-FileUtils.mkdir_p 'cool/beans'
+String#tr
+'true'
