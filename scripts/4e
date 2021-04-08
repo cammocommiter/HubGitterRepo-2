@@ -1,10 +1,2 @@
-class A
-end
-
-class B < A
-end
-
-B.superclass # => A
-B.superclass.name # => "A"
-
-$stdout
+flatten(1)
+http://myusername:mypass@www.someapp.com/
