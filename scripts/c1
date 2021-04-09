@@ -1,2 +1,7 @@
-&
-cd C:\Ruby193\DevKit
+class Hash
+  def compact
+    delete_if { |k, v| v.nil? }
+  end
+end
+
+US Standard
