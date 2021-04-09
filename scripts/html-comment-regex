@@ -1,21 +1,3 @@
-require 'active_record'
+str = "file_" + i.to_s.rjust(n, "0")
 
-# Change the following to reflect your database settings
-ActiveRecord::Base.establish_connection(
-  adapter:  'mysql2', # or 'postgresql' or 'sqlite3' or 'oracle_enhanced'
-  host:     'localhost',
-  database: 'your_database',
-  username: 'your_username',
-  password: 'your_password'
-)
-
-# Define your classes based on the database, as always
-class SomeClass < ActiveRecord::Base
-  #blah, blah, blah
-end
-
-# Now do stuff with it
-puts SomeClass.find :all
-some_class = SomeClass.new
-
-sudo apt-get install libpq-dev
+Pathname#exist?
