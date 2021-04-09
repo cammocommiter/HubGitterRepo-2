@@ -1,2 +1,6 @@
-rails_admin
-UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
+require 'pathname'
+
+Pathname.new('/opt/local/bin/ruby').basename
+# => #<Pathname:ruby>
+
+def foo(bar) bar = 'reference' end; baz = 'value'; foo(baz); puts "Ruby is pass-by-#{baz}"
