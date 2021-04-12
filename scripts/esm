@@ -1,9 +1,2 @@
-def self.secret
-  'xxx'
-end
-
-private_class_method :secret
-
-> foo2 = ->(arg) { arg * 2 }
-> foo2.call "now"
- => nownow
+StandardError
+render_404
