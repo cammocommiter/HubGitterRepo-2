@@ -1,2 +1,11 @@
-CHANGELOG
-ruby 2.0.0p0 (2013-02-24)
+Hash[original_hash.to_a.sample(n)]
+
+#!/usr/bin/ruby
+
+begin
+  system("stty raw -echo")
+  str = STDIN.getc
+ensure
+  system("stty -raw echo")
+end
+p str.chr
