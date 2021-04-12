@@ -1,21 +1,4 @@
-module Common
-  def foo
-    puts 'foo'
-  end
-end
+<%= link_to 'Destroy', post_comment_path(@post, comment),
+            data: {:confirm => 'Are you sure?'}, :method => :delete %>
 
-class A
-  extend Common
-end
-
-class B
-  extend Common
-end
-
-class C
-  extend Common
-end
-
-A.foo
-
-Gemfile
+allow_any_instance_of
