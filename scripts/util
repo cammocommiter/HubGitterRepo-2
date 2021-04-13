@@ -1,23 +1,14 @@
-reject
-class Thing
-
-  def initialize(a, b, c)
-    @a = a
-    @b = b
-    @c = c
+system
+class Foo
+  def bar
+    'Hello'
   end
+end 
 
-  def ==(o)
-    o.class == self.class && o.state == state
+class ExtendedFoo < Foo
+  def bar
+    super + ' World'
   end
-
-  protected
-
-  def state
-    [@a, @b, @c]
-  end
-
 end
 
-p Thing.new(1, 2, 3) == Thing.new(1, 2, 3)    # => true
-p Thing.new(1, 2, 3) == Thing.new(1, 2, 4)    # => false
+ExtendedFoo.new.bar # => 'Hello World'
