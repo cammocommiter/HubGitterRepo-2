@@ -1,1 +1,3 @@
-def this; end
+h.sort.to_h
+
+rvm get stable
