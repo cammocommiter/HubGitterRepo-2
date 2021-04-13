@@ -1,3 +1,5 @@
-ActiveSupport::TimeZone.new('America/New_York').local_to_utc(t)
+hs.reduce({}) {|h,pairs| pairs.each {|k,v| (h[k] ||= []) << v}; h}
 
-nano /usr/local/Library/brew.rb
+hs.map(&:to_a).flatten(1).reduce({}) {|h,(k,v)| (h[k] ||= []) << v; h}
+
+disable-binary
