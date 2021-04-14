@@ -1,7 +1,11 @@
-my_model_instance = MyModel.new
-file = File.open(file_path)
-my_model_instance.attachment = file
-file.close
-my_model_instance.save!
+$ bin/spring stop
 
-rm -rf
+def print_and_flush(str)
+  print str
+  $stdout.flush
+end
+
+100.times do
+  print_and_flush "."
+  sleep 1
+end
