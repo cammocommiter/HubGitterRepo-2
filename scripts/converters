@@ -1,6 +1,4 @@
-require 'pathname'
+MyModule.constants.select {|c| MyModule.const_get(c).is_a? Class}
 
-Pathname.new('/opt/local/bin/ruby').basename
-# => #<Pathname:ruby>
-
-def foo(bar) bar = 'reference' end; baz = 'value'; foo(baz); puts "Ruby is pass-by-#{baz}"
+require 'io/console'
+password = STDIN.noecho(&:gets).chomp
