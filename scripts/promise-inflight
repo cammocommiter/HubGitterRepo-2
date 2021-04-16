@@ -1,5 +1,2 @@
-hs.reduce({}) {|h,pairs| pairs.each {|k,v| (h[k] ||= []) << v}; h}
-
-hs.map(&:to_a).flatten(1).reduce({}) {|h,(k,v)| (h[k] ||= []) << v; h}
-
-disable-binary
+config.threadsafe!
+tr
