@@ -1,7 +1,9 @@
-HTTParty.get( "#{ @settings.api_server }#{ url }", :verify => false ).parsed_response
+sudo apt-get install libreadline5-dev
+cd ext/readline
+ruby extconf.rb
+make
+sudo make install
 
-begin
-  # do something that fails...
-rescue => error
-  # error and $! are equivalent here
-end
+rvm autolibs homebrew
+rvm install 2.1.1
+rvm use 2.1.1
