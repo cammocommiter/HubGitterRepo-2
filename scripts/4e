@@ -1,2 +1,2 @@
-flatten(1)
-http://myusername:mypass@www.someapp.com/
+to_s
+const_defined?
