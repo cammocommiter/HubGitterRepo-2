@@ -1,4 +1,2 @@
-"String".start_with? "S" # true
-"String".end_with? "4" # false
-
-  config.include Capybara::DSL
+'hello' =~ /^h/ # => 0
+portslist: '[{"name":"ob1","port_type" ... }]'
