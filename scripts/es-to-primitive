@@ -1,2 +1,5 @@
-require 'activesupport'
-!~
+rvm autolibs homebrew
+rvm install 2.1.1
+rvm use 2.1.1
+
+def foo(a:, b:) ...
