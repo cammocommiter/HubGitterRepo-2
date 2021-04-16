@@ -1,3 +1,15 @@
-h.sort.to_h
+require 'ostruct'
 
-rvm get stable
+person = OpenStruct.new
+person.name    = "John Smith"
+person.age     = 70
+person.pension = 300
+
+puts person.name     # -> "John Smith"
+puts person.age      # -> 70
+puts person.address  # -> nil
+
+CSV.foreach('my_file.csv', :headers => true) do |row|
+  puts row['foo'] # prints 1 the 1st time, "blah" 2nd time, etc
+  puts row['bar'] # prints 2 the first time, 7 the 2nd time, etc
+end
