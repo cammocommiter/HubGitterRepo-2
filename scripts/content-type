@@ -1,8 +1,10 @@
-cat = String.new("cat")
-def cat.speak
-    'miaow'
-end
-cat.speak #=> "miaow" 
-cat.singleton_methods #=> ["speak"] 
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_development
+  pool: 5
+  username: blog
+  password:
+  host: localhost
 
-["10", "20", "50","99"].map(&:inspect).join(', ') # => '"10", "20", "50", "99"'
+Methods
