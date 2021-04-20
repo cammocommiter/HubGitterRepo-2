@@ -1,2 +1,9 @@
-<<
-warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+x = :sym
+y = :sym
+(x.__id__ == y.__id__ ) && ( :sym.__id__ == x.__id__) # => true
+
+x = "string"
+y = "string"
+(x.__id__ == y.__id__ ) || ( "string".__id__ == x.__id__) # => false
+
+if owner.is_a? thing //worked fine
