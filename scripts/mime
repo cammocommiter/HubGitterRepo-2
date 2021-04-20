@@ -1,4 +1,10 @@
-<%= link_to 'Destroy', post_comment_path(@post, comment),
-            data: {:confirm => 'Are you sure?'}, :method => :delete %>
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: my_db_name
+  username: root
+  password: my_password
+  host: 127.0.0.1
+  port: 3306
 
-allow_any_instance_of
+File.dirname
