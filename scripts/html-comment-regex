@@ -1,3 +1,3 @@
-str = "file_" + i.to_s.rjust(n, "0")
+ALTER TABLE your_database_name.your_table CONVERT TO CHARACTER SET utf8
 
-Pathname#exist?
+Enumerable#each_slice
