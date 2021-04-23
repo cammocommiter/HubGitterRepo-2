@@ -1,1 +1,2 @@
-def this; end
+Paperclip version 4.0
+rails g migration change_date_format_in_my_table
