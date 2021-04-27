@@ -1,3 +1,2 @@
-array.map(&:cash).inject(0, &:+)
-
-/abc(?!$)/
+scan
+tr
