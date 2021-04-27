@@ -1,2 +1,2 @@
-ensure
-sudo apt-get install libmysql-ruby libmysqlclient-dev
+TestClass.instance_methods
+rm -rf ~/.rvm
