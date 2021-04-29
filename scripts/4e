@@ -1,5 +1,4 @@
-class << self
-uri = URI.parse("https://example.com/some/path")
-http = Net::HTTP.new(uri.host, uri.port)
-http.use_ssl = true
-@data = http.get(uri.request_uri)
+deep_symbolize_keys
+def instance_value
+  "my value"
+end
