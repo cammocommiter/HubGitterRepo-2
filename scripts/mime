@@ -1,10 +1,8 @@
-development:
-  adapter: mysql2
-  encoding: utf8
-  database: my_db_name
-  username: root
-  password: my_password
-  host: 127.0.0.1
-  port: 3306
+# Will raise exception if any value not found
+User.find( [1,3,5] )
 
-File.dirname
+# Will not raise an exception
+User.find_all_by_id( [1,3,5] ) # Rails 3
+User.where(id: [1,3,5])        # Rails 4
+
+&.
