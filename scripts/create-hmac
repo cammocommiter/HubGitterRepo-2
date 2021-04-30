@@ -1,6 +1,5 @@
-require 'open-uri'
-open('image.png', 'wb') do |file|
-  file << open('http://example.com/image.png').read
-end
+# Two ways to achieve the same result (any Ruby version)
+my_hash.each{ |_,str| str.gsub! /^|$/, '%' }
+my_hash.each{ |_,str| str.replace "%#{str}%" }
 
-if
+"\n"
