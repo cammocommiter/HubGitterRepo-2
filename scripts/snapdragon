@@ -1,9 +1,3 @@
-sudo apt-get install libreadline5-dev
-cd ext/readline
-ruby extconf.rb
-make
-sudo make install
+Marshal.load(Marshal.dump(@object))
 
-rvm autolibs homebrew
-rvm install 2.1.1
-rvm use 2.1.1
+HTTParty.get( "#{ @settings.api_server }#{ url }", :verify => false ).parsed_response
