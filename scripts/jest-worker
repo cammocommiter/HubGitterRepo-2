@@ -1,3 +1,2 @@
-sudo apt-get install libpq-dev
-
-my_hash.transform_keys(&:to_sym)
+DateTime.strptime
+:binary
