@@ -1,2 +1,2 @@
-(1..10).include?(number)
-'true'
+File.open
+next
