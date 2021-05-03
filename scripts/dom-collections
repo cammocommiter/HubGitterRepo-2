@@ -1,2 +1,2 @@
-let
-assert_raises
+&:
+alias_method_chain()
