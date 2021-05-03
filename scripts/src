@@ -1,3 +1,2 @@
-array.map!(&:to_s)
-
-capture
+nano /usr/local/Library/brew.rb
+class
