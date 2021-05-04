@@ -1,2 +1,4 @@
-tr
-||=
+rvm install 2.2.5
+rvm use 2.2.5
+
+script/delayed_job
