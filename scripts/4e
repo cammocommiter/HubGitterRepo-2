@@ -1,4 +1,14 @@
-deep_symbolize_keys
-def instance_value
-  "my value"
+class Test1
+  def meth1
+    def meth2
+      puts "Yay"
+    end
+    meth2
+  end
+end
+
+Test1.new.meth1
+
+array.each do |element|
+  element.do_stuff
 end
