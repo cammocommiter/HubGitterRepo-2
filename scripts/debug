@@ -1,2 +1,16 @@
-'hello' =~ /^h/ # => 0
-portslist: '[{"name":"ob1","port_type" ... }]'
+RUBY_VERSION # => "1.9.2"
+bashrc = ENV['HOME'] + '/.bashrc'
+File.exist?(bashrc) # => true
+File.file?(bashrc)  # => true
+File.directory?(bashrc) # => false
+
+class A
+  class << self
+    puts self # self is the singleton class of A
+  end
+end
+
+a = A.new
+class << a
+  puts self # now it's the singleton class of object a
+end
