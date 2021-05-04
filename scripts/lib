@@ -1,3 +1,2 @@
-my_array.find{|x| x.some_test }
-
-/usr/local/Cellar/ruby/...
+**
+unshift
