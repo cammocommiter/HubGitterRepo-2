@@ -1,3 +1,4 @@
-Marshal.load(Marshal.dump(@object))
+def check_box(method, options = {}, checked_value = "1", unchecked_value = "0")
 
-HTTParty.get( "#{ @settings.api_server }#{ url }", :verify => false ).parsed_response
+% gem install bundler -v '~> 1.0.0'
+Successfully installed bundler-1.0.22
