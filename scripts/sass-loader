@@ -1,2 +1,5 @@
-round(double precision, integer)
-Hash#slice
+ActionController::Parameters
+  you = Human.new
+  if you.respond_to?(:knock)
+    ...
+  end
