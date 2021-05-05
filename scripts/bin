@@ -1,2 +1,3 @@
-Array#join
-casecmp
+permalink: /:categories/:year/:month/:day/:title.html
+
+Logger::DEBUG
