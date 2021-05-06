@@ -1,19 +1,12 @@
-symbolize_names
-def table_for(collection, *args)
-  p collection: collection, args: args
-end
+Dir['*.rb'] #basic globs
+Dir['**/*.rb'] #** == any depth of directory, including current dir.
+#=> array of relative names
 
-table_for("one")
-#=> {:collection=>"one", :args=>[]}
+File.expand_path('~/file.txt') #=> "/User/mat/file.txt"
+File.dirname('dir/file.txt') #=> 'dir'
+File.basename('dir/file.txt') #=> 'file.txt'
+File.join('a', 'bunch', 'of', 'strings') #=> 'a/bunch/of/strings'
 
-table_for("one", "two")
-#=> {:collection=>"one", :args=>["two"]}
+__FILE__ #=> the name of the current file
 
-table_for "one", "two", "three"
-#=> {:collection=>"one", :args=>["two", "three"]}
-
-table_for("one", "two", "three")
-#=> {:collection=>"one", :args=>["two", "three"]}
-
-table_for("one", ["two", "three"])
-#=> {:collection=>"one", :args=>[["two", "three"]]}
+~> 2.3
