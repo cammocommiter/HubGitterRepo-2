@@ -1,2 +1,13 @@
-Array::Shift
-flatten(1)
+Kernel#caller
+require 'rubygems'
+
+name = /^/i
+dep = Gem::Dependency.new(name, Gem::Requirement.default)
+specs = Gem.source_index.search(dep)
+puts specs[0..5].map{ |s| "#{s.name} #{s.version}" }
+# >> Platform 0.4.0
+# >> abstract 1.0.0
+# >> actionmailer 3.0.5
+# >> actionpack 3.0.5
+# >> activemodel 3.0.5
+# >> activerecord 3.0.5
