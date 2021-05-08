@@ -1,3 +1,2 @@
-~/.rvm/gemsets/global.gems
-#!/bin/bash
-tmux new-session -d -s my_session 'ruby run.rb'
+*
+__FILE__
