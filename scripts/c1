@@ -1,4 +1,4 @@
-rvm install 2.2.5
-rvm use 2.2.5
-
-script/delayed_job
+child_process.exec
+rails destroy controller lalala
+rails destroy model yadayada
+rails destroy scaffold hohoho
