@@ -1,2 +1,4 @@
-*
-__FILE__
+rvm install 2.2.5
+rvm use 2.2.5
+
+1
