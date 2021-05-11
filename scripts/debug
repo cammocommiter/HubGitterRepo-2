@@ -1,16 +1,11 @@
-RUBY_VERSION # => "1.9.2"
-bashrc = ENV['HOME'] + '/.bashrc'
-File.exist?(bashrc) # => true
-File.file?(bashrc)  # => true
-File.directory?(bashrc) # => false
+new Regex("From:\\s*" + Regex.Escape(_mail), RegexOptions.IgnoreCase);
+new Regex("<" + Regex.Escape(_mail) + ">", RegexOptions.IgnoreCase);
+new Regex(Regex.Escape(_mail) + "\\s+wrote:", RegexOptions.IgnoreCase);
+new Regex("\\n.*On.*(\\r\\n)?wrote:\\r\\n", RegexOptions.IgnoreCase | RegexOptions.Multiline);
+new Regex("-+original\\s+message-+\\s*$", RegexOptions.IgnoreCase);
+new Regex("from:\\s*$", RegexOptions.IgnoreCase);
 
-class A
-  class << self
-    puts self # self is the singleton class of A
-  end
-end
-
-a = A.new
-class << a
-  puts self # now it's the singleton class of object a
+setup do
+  @request.env['HTTP_REFERER'] = 'http://test.com/sessions/new'
+  post :create, { :user => { :email => 'invalid@abc' } }
 end
