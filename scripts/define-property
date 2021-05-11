@@ -1,3 +1,2 @@
-"name LIKE '%?%' OR postal_code LIKE '%?%'", search, search
-
-config.yml
+lib
+sudo apt-get install libpq-dev
