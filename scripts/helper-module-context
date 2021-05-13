@@ -1,2 +1,4 @@
-include?
-begin <code> end while <condition>
+c = a.merge(b)
+
+s="this is a string with is thrice"
+s.scan(/is/).count  # => 3
