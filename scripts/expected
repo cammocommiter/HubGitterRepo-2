@@ -1,2 +1,2 @@
-initialize_with
-ls -la /usr/bin/ruby
+irb -r ./your_file.rb
+Record.exists?(record.id)
