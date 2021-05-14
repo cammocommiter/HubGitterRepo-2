@@ -1,4 +1,2 @@
-rvm install 2.2.5
-rvm use 2.2.5
-
-1
+Paperclip version 4.0
+find_all
