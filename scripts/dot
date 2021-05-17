@@ -1,2 +1,3 @@
-scan
-Array#uniq
+has_many :memberships, dependent: :delete_all
+
+next
