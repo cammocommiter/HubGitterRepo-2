@@ -1,4 +1,4 @@
-c = a.merge(b)
+%i[ ] # Non-interpolated Array of symbols, separated by whitespace
+%I[ ] # Interpolated Array of symbols, separated by whitespace
 
-s="this is a string with is thrice"
-s.scan(/is/).count  # => 3
+Object.const_get("User")
