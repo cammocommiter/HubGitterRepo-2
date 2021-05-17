@@ -1,6 +1,2 @@
-gem install <gem_name>
-before { skip }
-# or 
-xdescribe
-# or 
-xcontext
+scan
+Array#uniq
