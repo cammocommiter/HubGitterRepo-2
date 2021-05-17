@@ -1,2 +1,2 @@
-puts
-Date.parse('31-12-2010')
+''
+t = Time.at(i)
