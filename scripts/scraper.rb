@@ -1,3 +1,5 @@
-Dir["/path/to/search/*"]
+sudo apt-get install vim-nox;
 
-sleep(num_secs)
+rescue Exception => e
+  # ...
+end
