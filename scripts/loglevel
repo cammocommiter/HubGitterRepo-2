@@ -1,7 +1,28 @@
-first = array.shift
-last = array.pop
-process_first_one
-array.each { |x| process_middle_bits }
-process_last_one
+class Test1
+  def meth1
+    def meth2
+      puts "Yay"
+    end
+    meth2
+  end
+end
 
-{a: 1, b: 2, 'c-c': 3, d: 4}
+Test1.new.meth1
+
+describe Array do
+  describe "with 3 items" do
+    before { @arr = [1, 2, 3] }
+
+    specify { @arr.should_not be_empty }
+    specify { @arr.count.should eq(3) }
+  end
+end
+
+describe Array do
+  describe "with 3 items" do
+    subject { [1, 2, 3] }
+
+    it { should_not be_empty }
+    its(:count) { should eq(3) }
+  end
+end
