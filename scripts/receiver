@@ -1,3 +1,2 @@
-gem which rails
-
-rails destroy <name_of_generator>
+remove_instance_variable
+sudo gem install bundler
