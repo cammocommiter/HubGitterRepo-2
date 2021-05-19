@@ -1,2 +1,2 @@
-irb -r ./your_file.rb
-Record.exists?(record.id)
+#[]
+gem install rails
