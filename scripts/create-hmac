@@ -1,5 +1,3 @@
-# Two ways to achieve the same result (any Ruby version)
-my_hash.each{ |_,str| str.gsub! /^|$/, '%' }
-my_hash.each{ |_,str| str.replace "%#{str}%" }
+a.zip(s).flatten.compact
 
-"\n"
+$
