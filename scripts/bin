@@ -1,3 +1,2 @@
-permalink: /:categories/:year/:month/:day/:title.html
-
-Logger::DEBUG
+10.hours
+Digest::MD5
