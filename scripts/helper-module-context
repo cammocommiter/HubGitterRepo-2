@@ -1,4 +1,4 @@
-%i[ ] # Non-interpolated Array of symbols, separated by whitespace
-%I[ ] # Interpolated Array of symbols, separated by whitespace
-
-Object.const_get("User")
+O(n)
+Integer('1001')                                    # => 1001  
+Integer('1001 nights')  
+# ArgumentError: invalid value for Integer: "1001 nights"  
