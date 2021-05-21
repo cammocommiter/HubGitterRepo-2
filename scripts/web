@@ -1,9 +1,6 @@
-x = :sym
-y = :sym
-(x.__id__ == y.__id__ ) && ( :sym.__id__ == x.__id__) # => true
+> [1,2,3] & [2,3,4] & [0,2,6]
+=> [2]
 
-x = "string"
-y = "string"
-(x.__id__ == y.__id__ ) || ( "string".__id__ == x.__id__) # => false
+def my_method(options = {}) 
 
-if owner.is_a? thing //worked fine
+my_method(:width => 400, :height => 50, :show_border => false)
