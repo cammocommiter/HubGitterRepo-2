@@ -1,29 +1,5 @@
-module Mods
-  def self.foo
-     puts "Mods.foo(self)"
-  end
-end
+if [ -f "$HOME/.bashrc" ]; then
+  source $HOME/.bashrc
+fi
 
-class Parent
-  @things = []
-  def self.things
-    @things
-  end
-  def things
-    self.class.things
-  end
-end
-
-class Child < Parent
-  @things = []
-end
-
-Parent.things << :car
-Child.things  << :doll
-mom = Parent.new
-dad = Parent.new
-
-p Parent.things #=> [:car]
-p Child.things  #=> [:doll]
-p mom.things    #=> [:car]
-p dad.things    #=> [:car]
+irb(main):015:0> def hi     irb(main):016:1> "hello"     irb(main):017:1> end     => nil     irb(main):018:0> hi.object_id     => 22452528     irb(main):019:0> hi.object_id.send hi     => "hi"     irb(main):020:0> hi.object_id.send(hi)     => "hi"
