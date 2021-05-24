@@ -1,17 +1,11 @@
-class AbstractThing
-  MESS = "SYSTEM ERROR: method missing"
+“data-no-turbolink” to the <body> tag
+def sanitize_filename(filename)
+  returning filename.strip do |name|
+   # NOTE: File.basename doesn't work right with Windows paths on Unix
+   # get only the filename, not the whole path
+   name.gsub!(/^.*(\\|\/)/, '')
 
-  def method_one; raise MESS; end
-  def method_two; raise MESS; end
-end
-
-class ConcreteThing < AbstractThing
-  def method_one
-     puts "hi"
+   # Strip out the non-ascii character
+   name.gsub!(/[^0-9A-Za-z.\-]/, '_')
   end
 end
-
-a = ConcreteThing.new
-a.method_two # -> raises error.
-
-create
