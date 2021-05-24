@@ -1,4 +1,2 @@
-MyModule.constants.select {|c| MyModule.const_get(c).is_a? Class}
-
-require 'io/console'
-password = STDIN.noecho(&:gets).chomp
+incorrect header check (Zlib::DataError)
+#each
