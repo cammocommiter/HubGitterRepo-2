@@ -1,2 +1,7 @@
-10.hours
-Digest::MD5
+private :xmethod
+users.each_with_index do |u, index|
+  # some code
+  if index == users.size - 1
+    # code for the last user
+  end
+end
