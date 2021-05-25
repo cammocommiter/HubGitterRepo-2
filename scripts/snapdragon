@@ -1,7 +1,2 @@
-Dir["/path/to/directory/*.rb"].each {|file| require file }
-
-# rails < 3.1
-new_record = old_record.clone
-
-#rails >= 3.1
-new_record = old_record.dup
+install
+Test::Unit
