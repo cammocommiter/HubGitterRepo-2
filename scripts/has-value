@@ -1,20 +1,7 @@
-irb(main):015:0> def hi     irb(main):016:1> "hello"     irb(main):017:1> end     => nil     irb(main):018:0> hi.object_id     => 22452528     irb(main):019:0> hi.object_id.send hi     => "hi"     irb(main):020:0> hi.object_id.send(hi)     => "hi"
-require 'socket'
-require 'timeout'
-
-def is_port_open?(ip, port)
-  begin
-    Timeout::timeout(1) do
-      begin
-        s = TCPSocket.new(ip, port)
-        s.close
-        return true
-      rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH
-        return false
-      end
-    end
-  rescue Timeout::Error
+  you = Human.new
+  if you.respond_to?(:knock)
+    ...
   end
 
-  return false
-end
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
