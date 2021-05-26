@@ -1,3 +1,2 @@
-a.zip(s).flatten.compact
-
-$
+sudo chmod go-w /usr/local/bin
+(foo ||= []) << :element
