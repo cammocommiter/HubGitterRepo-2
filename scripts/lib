@@ -1,11 +1,19 @@
-GoogleChart::PieChart.new('320x200', "Things I Like To Eat", false) do |pc| 
-  pc.data "Broccoli", 30
-  pc.data "Pizza", 20
-  pc.data "PB&J", 40 
-  pc.data "Turnips", 10 
-  puts pc.to_url 
+class Foo
+  def self.bar
+    puts "bar"
+  end
 end
 
-auth = {:username => "test", :password => "test"}
-@blah = HTTParty.get("http://twitter.com/statuses/public_timeline.json", 
-                     :basic_auth => auth)
+Foo.bar    # => bar
+
+class <<Foo
+  undef_method :bar
+end
+# or
+class Foo
+  singleton_class.undef_method :bar
+end
+
+Foo.bar    # => undefined method `bar' for Foo:Class (NoMethodError)
+
+require 'date'
