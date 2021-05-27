@@ -1,2 +1,15 @@
-scan
-tr
+a = [2, 2, 3]
+a.send("length")
+# or
+a.public_send("length")
+
+Dir['*.rb'] #basic globs
+Dir['**/*.rb'] #** == any depth of directory, including current dir.
+#=> array of relative names
+
+File.expand_path('~/file.txt') #=> "/User/mat/file.txt"
+File.dirname('dir/file.txt') #=> 'dir'
+File.basename('dir/file.txt') #=> 'file.txt'
+File.join('a', 'bunch', 'of', 'strings') #=> 'a/bunch/of/strings'
+
+__FILE__ #=> the name of the current file
