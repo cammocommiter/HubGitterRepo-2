@@ -1,2 +1,3 @@
-&:
-alias_method_chain()
+each_with_index
+
+Array#uniq
