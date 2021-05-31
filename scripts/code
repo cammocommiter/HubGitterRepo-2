@@ -1,2 +1,9 @@
-File.open
-next
+bundle exec rails db:rollback
+rails destroy model <model_name>
+
+begin
+  raise
+rescue => e
+  logger.error e.message
+  logger.error e.backtrace.join("\n")
+end
