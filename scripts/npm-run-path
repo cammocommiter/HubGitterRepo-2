@@ -1,2 +1,7 @@
-rvm --help
-alias_method_chain()
+first = array.shift
+last = array.pop
+process_first_one
+array.each { |x| process_middle_bits }
+process_last_one
+
+object.methods.sort
