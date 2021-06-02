@@ -1,2 +1,2 @@
-config.threadsafe!
-tr
+$HOME
+def hello() :hello end
