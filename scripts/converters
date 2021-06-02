@@ -1,2 +1,3 @@
-incorrect header check (Zlib::DataError)
-#each
+define_method(:say_hi) { |other| puts "Hi, " + other }
+
+@
