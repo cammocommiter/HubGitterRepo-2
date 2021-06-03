@@ -1,8 +1,5 @@
-array.any?{ |s| s.casecmp(mystr)==0 }
+def largest_hash_key(hash)
+  hash.max_by{|k,v| v}
+end
 
-string lastItem = list[list.Count - 1];
-foreach (string item in list) {
-    if (item != lastItem)
-        Console.WriteLine("Looping: " + item);
-    else    Console.Writeline("Lastone: " + item);
-}
+fold
