@@ -1,6 +1,23 @@
-setup do
-  @request.env['HTTP_REFERER'] = 'http://test.com/sessions/new'
-  post :create, { :user => { :email => 'invalid@abc' } }
+core_ext
+# As written by @Justice
+class Person
+  def initialize(name, lastName = nil)
+    name = name + " " + lastName unless lastName.nil?
+    @name = name
+  end
 end
 
-my_hash.dig('key1', 'key2', 'key3')
+
+class Person
+  def initialize(args)
+    name = args["name"]
+    name = name + " " + args["lastName"] unless args["lastName"].nil?
+    @name = name
+  end
+end
+
+class Person
+  def initialize(*args)
+    #Process args (An array)
+  end
+end
