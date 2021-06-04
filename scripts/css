@@ -1,5 +1,43 @@
-if [ -f "$HOME/.bashrc" ]; then
-  source $HOME/.bashrc
-fi
+module Abstract
+  def abstract_methods(*args)
+    args.each do |name|
+      class_eval(<<-END, __FILE__, __LINE__)
+        def #{name}(*args)
+          raise NotImplementedError.new("You must implement #{name}.")
+        end
+      END
+      # important that this END is capitalized, since it marks the end of <<-END
+    end
+  end
+end
 
-irb(main):015:0> def hi     irb(main):016:1> "hello"     irb(main):017:1> end     => nil     irb(main):018:0> hi.object_id     => 22452528     irb(main):019:0> hi.object_id.send hi     => "hi"     irb(main):020:0> hi.object_id.send(hi)     => "hi"
+require 'rubygems'
+require 'rspec'
+
+describe "abstract methods" do
+  before(:each) do
+    @klass = Class.new do
+      extend Abstract
+
+      abstract_methods :foo, :bar
+    end
+  end
+
+  it "raises NoMethodError" do
+    proc {
+      @klass.new.foo
+    }.should raise_error(NoMethodError)
+  end
+
+  it "can be overridden" do
+    subclass = Class.new(@klass) do
+      def foo
+        :overridden
+      end
+    end
+
+    subclass.new.foo.should == :overridden
+  end
+end
+
+expect(@article.updated_at.utc.to_s).to eq(Time.now.to_s)
