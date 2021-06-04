@@ -1,19 +1,2 @@
-class Foo
-  def self.bar
-    puts "bar"
-  end
-end
-
-Foo.bar    # => bar
-
-class <<Foo
-  undef_method :bar
-end
-# or
-class Foo
-  singleton_class.undef_method :bar
-end
-
-Foo.bar    # => undefined method `bar' for Foo:Class (NoMethodError)
-
-require 'date'
+flatten(1)
+define_method
