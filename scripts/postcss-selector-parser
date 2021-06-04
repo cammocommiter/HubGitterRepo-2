@@ -1,2 +1,5 @@
-strip_tags
-FileUtils.touch
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+011-123-555-1212
++11-123-555-1212
++1 (112) 355-5121 x2
