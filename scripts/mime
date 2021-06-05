@@ -1,3 +1,5 @@
-print "\a"
+class User < ActiveRecord::Base
+  enum status: [ :admin, :user, :banned ]
+end
 
-BasicObject
+system
