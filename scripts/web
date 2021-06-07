@@ -1,6 +1,2 @@
-> [1,2,3] & [2,3,4] & [0,2,6]
-=> [2]
-
-def my_method(options = {}) 
-
-my_method(:width => 400, :height => 50, :show_border => false)
+NoMethodError
+Regexp.union
