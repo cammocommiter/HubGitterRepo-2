@@ -1,11 +1,32 @@
-new Regex("From:\\s*" + Regex.Escape(_mail), RegexOptions.IgnoreCase);
-new Regex("<" + Regex.Escape(_mail) + ">", RegexOptions.IgnoreCase);
-new Regex(Regex.Escape(_mail) + "\\s+wrote:", RegexOptions.IgnoreCase);
-new Regex("\\n.*On.*(\\r\\n)?wrote:\\r\\n", RegexOptions.IgnoreCase | RegexOptions.Multiline);
-new Regex("-+original\\s+message-+\\s*$", RegexOptions.IgnoreCase);
-new Regex("from:\\s*$", RegexOptions.IgnoreCase);
-
-setup do
-  @request.env['HTTP_REFERER'] = 'http://test.com/sessions/new'
-  post :create, { :user => { :email => 'invalid@abc' } }
+gaussian = Proc.new do |dist, *args|
+  sigma = args.first || 10.0
+  ...
 end
+
+def weightedknn(data, vec1, k = 5, weightf = gaussian)
+  ...
+  weight = weightf.call(dist)
+  ...
+end
+
+>> @budget = [ 100, 150, 25, 105 ]
+=> [100, 150, 25, 105]
+>> @actual = [ 120, 100, 50, 100 ]
+=> [120, 100, 50, 100]
+
+>> @budget.zip @actual
+=> [[100, 120], [150, 100], [25, 50], [105, 100]]
+
+>> @budget.zip(@actual).each do |budget, actual|
+?>   puts budget
+>>   puts actual
+>> end
+100
+120
+150
+100
+25
+50
+105
+100
+=> [[100, 120], [150, 100], [25, 50], [105, 100]]
