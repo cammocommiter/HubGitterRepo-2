@@ -1,6 +1,2 @@
-expect(array1).to include(*array2)
-
-class Car < ActiveRecord::Base
-   belongs_to :vendor
-   belongs_to :company, :class_name => :Vendor,:foreign_key => "vendor_id"
-end
+gem install
+123
