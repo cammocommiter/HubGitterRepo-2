@@ -1,9 +1,5 @@
-bundle exec rails db:rollback
-rails destroy model <model_name>
+rails destroy controller lalala
+rails destroy model yadayada
+rails destroy scaffold hohoho
 
-begin
-  raise
-rescue => e
-  logger.error e.message
-  logger.error e.backtrace.join("\n")
-end
+authenticity_token
