@@ -1,3 +1,4 @@
-array_of_hashes.any? {|h| h[:a] == 11}
+"String".start_with? "S" # true
+"String".end_with? "4" # false
 
-lowercase_and_underscore.rb
+Math.gamma
