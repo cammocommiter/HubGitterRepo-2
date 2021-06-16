@@ -1,3 +1,2 @@
-define_method(:say_hi) { |other| puts "Hi, " + other }
-
-@
+render_views
+abort
