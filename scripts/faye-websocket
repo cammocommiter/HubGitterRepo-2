@@ -1,5 +1,9 @@
-def largest_hash_key(hash)
-  hash.max_by{|k,v| v}
+#any?
+class Foo
+  def foo=(x)
+    puts "OK: x=#{x}"
+  end
 end
-
-fold
+f = Foo.new
+f.foo = 123 # => 123
+# OK: x=123
