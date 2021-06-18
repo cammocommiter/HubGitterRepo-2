@@ -1,5 +1,2 @@
-rails destroy controller lalala
-rails destroy model yadayada
-rails destroy scaffold hohoho
-
-authenticity_token
+Goto symbol
+change_column :users, :column, :string, :limit => 255
