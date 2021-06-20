@@ -1,32 +1,20 @@
-gaussian = Proc.new do |dist, *args|
-  sigma = args.first || 10.0
-  ...
+module ActionDispatch
+  class Request < Rack::Request
+
+    # ...
+
+    def ip
+      @ip ||= super
+    end
+
+    def remote_ip
+      @remote_ip ||= (@env["action_dispatch.remote_ip"] || ip).to_s
+    end
+
+    # ...
+
+  end
 end
 
-def weightedknn(data, vec1, k = 5, weightf = gaussian)
-  ...
-  weight = weightf.call(dist)
-  ...
-end
-
->> @budget = [ 100, 150, 25, 105 ]
-=> [100, 150, 25, 105]
->> @actual = [ 120, 100, 50, 100 ]
-=> [120, 100, 50, 100]
-
->> @budget.zip @actual
-=> [[100, 120], [150, 100], [25, 50], [105, 100]]
-
->> @budget.zip(@actual).each do |budget, actual|
-?>   puts budget
->>   puts actual
->> end
-100
-120
-150
-100
-25
-50
-105
-100
-=> [[100, 120], [150, 100], [25, 50], [105, 100]]
+>> "àáâãäå".mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,'').downcase.to_s
+=> "aaaaaa"
