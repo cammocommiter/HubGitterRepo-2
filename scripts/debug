@@ -1,20 +1,6 @@
-module ActionDispatch
-  class Request < Rack::Request
+sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
 
-    # ...
-
-    def ip
-      @ip ||= super
-    end
-
-    def remote_ip
-      @remote_ip ||= (@env["action_dispatch.remote_ip"] || ip).to_s
-    end
-
-    # ...
-
-  end
+it "should call 'bar' with appropriate arguments" do
+  expect(subject).to receive(:bar).with("an argument I want")
+  subject.foo
 end
-
->> "àáâãäå".mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,'').downcase.to_s
-=> "aaaaaa"
