@@ -1,12 +1,4 @@
-irb(main):002:0> accepted_formats = [".txt", ".pdf"]
-=> [".txt", ".pdf"]
-irb(main):003:0> File.extname("example.pdf") # get the extension
-=> ".pdf"
-irb(main):004:0> accepted_formats.include? File.extname("example.pdf")
-=> true
-irb(main):005:0> accepted_formats.include? File.extname("example.txt")
-=> true
-irb(main):006:0> accepted_formats.include? File.extname("example.png")
-=> false
-
-abs
+house_id
+task :test do
+  sh "ls"
+end
