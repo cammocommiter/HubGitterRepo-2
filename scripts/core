@@ -1,16 +1,2 @@
-my_array.each_with_index do |item, index|
-    if index == 0
-        # do something with the first item
-    end
-    # common stuff
-end
-
-require 'uri'
-
-URI.encode("Hello there world")
-#=> "Hello%20there%20world"
-URI.encode("hello there: world, how are you")
-#=> "hello%20there:%20world,%20how%20are%20you"
-
-URI.decode("Hello%20there%20world")
-#=> "Hello there world"
+@controller.controller_name == "projects"
+Admin
