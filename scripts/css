@@ -1,2 +1,11 @@
-match '/search' => 'search#search', :as => 'search' # SearchController#search
-sudo yum list installed
+let
+class WeblogController < ActionController::Base
+  def index
+    @posts = Post.find :all
+    respond_to do |format|
+      format.html
+      format.xml { render :xml => @posts.to_xml }
+      format.rss { render :action => "feed.rxml" }
+    end
+  end
+end
