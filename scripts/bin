@@ -1,7 +1,5 @@
-private :xmethod
-users.each_with_index do |u, index|
-  # some code
-  if index == users.size - 1
-    # code for the last user
+  task :my_task do
+    run "my_command"
   end
-end
+
+mail
