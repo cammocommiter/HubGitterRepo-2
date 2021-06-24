@@ -1,11 +1,2 @@
-rake db:test:prepare
-gaussian = Proc.new do |dist, *args|
-  sigma = args.first || 10.0
-  ...
-end
-
-def weightedknn(data, vec1, k = 5, weightf = gaussian)
-  ...
-  weight = weightf.call(dist)
-  ...
-end
+export CC=/usr/bin/gcc-4.2
+foo[0...100]
