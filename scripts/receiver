@@ -1,17 +1,12 @@
-class Foo
-  @@foos = 0
+include ActionView::Helpers
 
-  def initialize
-    @@foos += 1
+class SetDefault < ActiveRecord::Migration
+  def self.up
+    change_column :people, :last_name, :type, :default => "Doe"
   end
 
-  def self.number_of_foos
-    @@foos
+  def self.down
+    # You can't currently remove default values in Rails
+    raise ActiveRecord::IrreversibleMigration, "Can't remove the default"
   end
 end
-
-Foo.new
-Foo.new
-Foo.number_of_foos #=> 2
-
-routes.rb
