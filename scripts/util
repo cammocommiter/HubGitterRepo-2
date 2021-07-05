@@ -1,16 +1,2 @@
-2.5
-class Foo
-  @@foos = 0
-
-  def initialize
-    @@foos += 1
-  end
-
-  def self.number_of_foos
-    @@foos
-  end
-end
-
-Foo.new
-Foo.new
-Foo.number_of_foos #=> 2
+Date
+Goto symbol
