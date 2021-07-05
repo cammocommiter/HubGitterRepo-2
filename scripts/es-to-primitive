@@ -1,3 +1,5 @@
-user.errors.full_messages
+var = "Value"
+str = "a test Value"
+p str.gsub( /#{var}/, 'foo' )   # => "a test foo"
 
-result = Users.find(:all, :order => "LOWER(name)")
+or
