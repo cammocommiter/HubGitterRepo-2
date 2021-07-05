@@ -1,5 +1,2 @@
-011-123-555-1212
-+11-123-555-1212
-+1 (112) 355-5121 x2
-
-user.errors.full_messages
+rbenv exec bundle exec command
+print "\a"
