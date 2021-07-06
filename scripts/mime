@@ -1,2 +1,9 @@
-update_column
-ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
+array.any?{ |s| s.casecmp(mystr)==0 }
+
+class Foo:
+  pass # dummy class
+
+Foo.bar = lambda self: 42
+
+x = Foo()
+print x.bar()
