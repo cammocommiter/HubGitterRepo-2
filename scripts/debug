@@ -1,6 +1,11 @@
-sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
+module Enumerable
+  def stable_sort
+    sort_by.with_index { |x, idx| [x, idx] }
+  end
 
-it "should call 'bar' with appropriate arguments" do
-  expect(subject).to receive(:bar).with("an argument I want")
-  subject.foo
+  def stable_sort_by
+    sort_by.with_index { |x, idx| [yield(x), idx] }
+  end
 end
+
+ % ruby_program | another_program
