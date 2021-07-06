@@ -1,5 +1,2 @@
-var = "Value"
-str = "a test Value"
-p str.gsub( /#{var}/, 'foo' )   # => "a test foo"
-
-or
+export CC=/usr/bin/gcc-4.2
+===
