@@ -1,9 +1,2 @@
-array.any?{ |s| s.casecmp(mystr)==0 }
-
-class Foo:
-  pass # dummy class
-
-Foo.bar = lambda self: 42
-
-x = Foo()
-print x.bar()
+trained
+&
