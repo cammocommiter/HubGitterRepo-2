@@ -1,2 +1,2 @@
-Goto symbol
-change_column :users, :column, :string, :limit => 255
+$HOME/.rbenv/shims
+puts variable.inspect
