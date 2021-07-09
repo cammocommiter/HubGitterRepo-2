@@ -1,12 +1,12 @@
-include ActionView::Helpers
-
-class SetDefault < ActiveRecord::Migration
-  def self.up
-    change_column :people, :last_name, :type, :default => "Doe"
+class YourMigration < ActiveRecord::Migration
+  def up
+    change_column :users, :login, :string, :limit => 55
   end
 
-  def self.down
-    # You can't currently remove default values in Rails
-    raise ActiveRecord::IrreversibleMigration, "Can't remove the default"
+  def down
+    change_column :users, :login, :string, :limit => 40
   end
 end
+
+# ruby
+$stdout.sync = true
