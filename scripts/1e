@@ -1,8 +1,2 @@
-<% form_for(something) do |f| %>
-    ..
-    <%= f.submit 'A' %>
-    <%= f.submit 'B' %>
-    ..
-<% end %>
-
-//= require_tree .
+require 'thread'; q = Queue.new
+String#scan
