@@ -1,2 +1,2 @@
-ENV['COLUMNS']
-describe
+(end_date - start_date).to_i
+send
