@@ -1,15 +1,4 @@
-require 'rake'
+sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
 
-Rake::Task.clear # necessary to avoid tasks being loaded several times in dev mode
-Sample::Application.load_tasks # providing your application name is 'sample'
-
-class RakeController < ApplicationController
-
-  def run
-    Rake::Task[params[:task]].reenable # in case you're going to invoke the same task second time.
-    Rake::Task[params[:task]].invoke
-  end
-
-end
-
-ruby -v
+true
