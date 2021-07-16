@@ -1,3 +1,2 @@
-<%= simple_form_for @photographer, :url => savenew_photographers_path, :method => :post ... # etc
-
-bundler
+map
+sudo gem install cocoapods
