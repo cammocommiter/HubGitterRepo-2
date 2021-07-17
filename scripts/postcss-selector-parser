@@ -1,4 +1,3 @@
-house_id
-task :test do
-  sh "ls"
-end
+sudo apt-get install ruby1.9
+
+sudo gem install rails
