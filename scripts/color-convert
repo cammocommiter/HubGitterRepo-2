@@ -1,2 +1,8 @@
-request.original_url
-(0...8).map { (65 + rand(26)).chr }.join
+Is ruby a functional language?
+$ rvm list
+
+=> ruby-1.8.7-p352 [ x86_64 ]
+ruby-1.9.2-p290 [ x86_64 ]
+
+
+$ rvm use 1.9.2
