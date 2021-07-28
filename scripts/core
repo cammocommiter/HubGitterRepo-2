@@ -1,2 +1,3 @@
-@controller.controller_name == "projects"
-Admin
+%i[address city state postal country]
+
+config/database.yml
