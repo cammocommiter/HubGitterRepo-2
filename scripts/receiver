@@ -1,12 +1,9 @@
-class YourMigration < ActiveRecord::Migration
-  def up
-    change_column :users, :login, :string, :limit => 55
-  end
+let
+@var = "Hi"
+puts "#@var there!"  #=> "Hi there!"
 
-  def down
-    change_column :users, :login, :string, :limit => 40
-  end
-end
+@@var = "Hi"
+puts "#@@var there!" #=> "Hi there!"
 
-# ruby
-$stdout.sync = true
+$var = "Hi"
+puts "#$var there!"  #=> "Hi there!"
