@@ -1,3 +1,2 @@
-rails g migration change_date_format_in_my_table
-
-str = "file_" + i.to_s.rjust(n, "0")
+DateTime.current.midnight
+"A".ord #=> 65
