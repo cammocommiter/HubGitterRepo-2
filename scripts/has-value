@@ -1,13 +1,2 @@
-class Gift
-  def initialize
-    @name = "book"
-    @price = 15.95
-  end
-end
-
-gift = Gift.new
-hash = {}
-gift.instance_variables.each {|var| hash[var.to_s.delete("@")] = gift.instance_variable_get(var) }
-p hash # => {"name"=>"book", "price"=>15.95}
-
-config/database.yml
+is_number?
+sudo chown -R $USER /usr/local
