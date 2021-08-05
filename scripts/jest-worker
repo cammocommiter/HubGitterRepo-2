@@ -1,3 +1,10 @@
-(0...8).map { (65 + rand(26)).chr }.join
+s="this is a string with is thrice"
+s.scan(/is/).count  # => 3
 
-Person
+>> Process.kill 0, 370
+=> 1
+>> Process.kill 0, 2
+Errno::ESRCH: No such process
+    from (irb):5:in `kill'
+    from (irb):5
+>> 
