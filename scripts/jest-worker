@@ -1,10 +1,4 @@
-s="this is a string with is thrice"
-s.scan(/is/).count  # => 3
+# %q(a string) is equivalent to a single-quoted string
+puts "Cote d'Ivoir".gsub("'", %q(\\\')) #=> Cote d\'Ivoir
 
->> Process.kill 0, 370
-=> 1
->> Process.kill 0, 2
-Errno::ESRCH: No such process
-    from (irb):5:in `kill'
-    from (irb):5
->> 
+xcode-select --install
