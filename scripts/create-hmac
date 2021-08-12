@@ -1,7 +1,4 @@
-# This gem will work with 1.8.6 or greater...
-spec.required_ruby_version = '>= 1.8.6'
+>> "àáâãäå".mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n,'').downcase.to_s
+=> "aaaaaa"
 
-# Only with ruby 2.0.x
-spec.required_ruby_version = '~> 2.0'
-
-i += 1
+gem "haml", '3.0.25'
