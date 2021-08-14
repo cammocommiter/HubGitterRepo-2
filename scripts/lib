@@ -1,4 +1,4 @@
-"String".start_with? "S" # true
-"String".end_with? "4" # false
+output = `ls`
+p output
 
-Math.gamma
+The and and or keywords are banned. It's just not worth it. Always use && and || instead.
