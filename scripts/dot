@@ -1,2 +1,2 @@
-(end_date - start_date).to_i
-send
+nil
+remove_instance_variable
