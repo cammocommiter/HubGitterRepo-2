@@ -1,8 +1,3 @@
-string lastItem = list[list.Count - 1];
-foreach (string item in list) {
-    if (item != lastItem)
-        Console.WriteLine("Looping: " + item);
-    else    Console.Writeline("Lastone: " + item);
-}
+raise NotImplementedError
 
-validates_format_of :email,:with => /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/
+expect(@object).to be_a Shirt
