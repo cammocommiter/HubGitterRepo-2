@@ -1,9 +1,3 @@
-let
-@var = "Hi"
-puts "#@var there!"  #=> "Hi there!"
+rvm install 1.9.3 --with-gcc=clang
 
-@@var = "Hi"
-puts "#@@var there!" #=> "Hi there!"
-
-$var = "Hi"
-puts "#$var there!"  #=> "Hi there!"
+update-alternatives --config ruby
