@@ -1,2 +1,9 @@
-is_number?
-sudo chown -R $USER /usr/local
+class A
+  private_class_method :new
+end
+
+a = b = c = d = "test"
+b << "x"
+=> "testx"
+a
+=> "testx"
