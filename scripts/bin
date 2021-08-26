@@ -1,2 +1,11 @@
-rbenv exec bundle exec command
-print "\a"
+a = "foobar"
+a.slice! "foo"
+=> "foo"
+a
+=> "bar"
+
+module Mods
+  def self.foo
+     puts "Mods.foo(self)"
+  end
+end
