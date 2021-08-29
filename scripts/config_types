@@ -1,12 +1,2 @@
-gem install mygem
-
-#encoding: ASCII-8BIT
-str = "\xC2\xA92011 AACR"
-p str, str.encoding
-#=> "\xC2\xA92011 AACR"
-#=> #<Encoding:ASCII-8BIT>
-
-str.force_encoding('UTF-8')
-p str, str.encoding
-#=> "©2011 AACR"
-#=> #<Encoding:UTF-8>
+$1
+ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]
