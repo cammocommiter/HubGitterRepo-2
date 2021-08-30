@@ -1,2 +1,5 @@
-require 'thread'; q = Queue.new
-String#scan
+bar.class.name.split('::').last
+#=> "Bar"
+
+list.group_by(&:capitalize).map {|k,v| [k, v.length]}
+#=> [["Master of puppets", 3], ["Enter sandman", 2], ["Nothing else matters", 1]]
