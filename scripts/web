@@ -1,2 +1,5 @@
-round
-autolibs
+before_action only: [:show, :edit, :update, :destroy] do
+  set_support("value")
+end
+
+request.referer
