@@ -1,9 +1,2 @@
-class A
-  private_class_method :new
-end
-
-a = b = c = d = "test"
-b << "x"
-=> "testx"
-a
-=> "testx"
+kind_of?
+case
