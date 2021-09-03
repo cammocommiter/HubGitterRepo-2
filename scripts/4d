@@ -1,2 +1,2 @@
-inject
-result = Users.find(:all, :order => "LOWER(name)")
+let
+json_string
