@@ -1,4 +1,2 @@
-O(n)
-Integer('1001')                                    # => 1001  
-Integer('1001 nights')  
-# ArgumentError: invalid value for Integer: "1001 nights"  
+String#[]
+mkdir_p
