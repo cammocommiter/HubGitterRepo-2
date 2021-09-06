@@ -1,1 +1,5 @@
-def this; end
+class Car {
+    class Wheel { }
+}
+
+define_method(:say_hi) { |other| puts "Hi, " + other }
