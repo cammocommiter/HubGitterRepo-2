@@ -1,14 +1,2 @@
-h = { :$in => array }
-h = { :'a.b' => 'c' }
-h[:s] = 42
-
-gaussian = Proc.new do |dist, *args|
-  sigma = args.first || 10.0
-  ...
-end
-
-def weightedknn(data, vec1, k = 5, weightf = gaussian)
-  ...
-  weight = weightf.call(dist)
-  ...
-end
+bundle install --path ~/.gem
+cannot find -lgmp
