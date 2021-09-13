@@ -1,2 +1,3 @@
-bundle install --path ~/.gem
-cannot find -lgmp
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+colour = "%06x" % (rand * 0xffffff)
