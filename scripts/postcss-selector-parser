@@ -1,3 +1,2 @@
-rake rails:update:bin
-
-IO.read()
+ENV['COLUMNS']
+Foo = String
