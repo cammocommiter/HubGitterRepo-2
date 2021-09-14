@@ -1,4 +1,2 @@
-output = `ls`
-p output
-
-The and and or keywords are banned. It's just not worth it. Always use && and || instead.
+Gemfile.lock
+sudo apt-get install libmysql-ruby libmysqlclient-dev
