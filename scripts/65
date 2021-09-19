@@ -1,5 +1,6 @@
-str.gsub(/\s+/m, ' ').strip.split(" ")
+ARGV.each do|a|
+  puts "Argument: #{a}"
+end
 
-= link_to "path/to/page.html" do
-  Other page
-  %span.icon Arrow
+output = `ls`
+p output
