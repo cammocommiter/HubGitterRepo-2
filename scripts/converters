@@ -1,2 +1,4 @@
-bundle clean
-big_result(input); 0
+rvm install 2.2.5
+rvm use 2.2.5
+
+shadowing_lvar_gen
