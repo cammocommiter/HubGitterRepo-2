@@ -1,2 +1,24 @@
-$1
-ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]
+Aptana_Studio_3_Setup_3.6.1 /passive /norestart
+
+class Example
+  attr_reader :name, :age
+
+  def initialize args
+    args.each do |k,v|
+      instance_variable_set("@#{k}", v) unless v.nil?
+    end
+  end
+end
+#=> nil
+e1 = Example.new :name => 'foo', :age => 33
+#=> #<Example:0x3f9a1c @name="foo", @age=33>
+e2 = Example.new :name => 'bar'
+#=> #<Example:0x3eb15c @name="bar">
+e1.name
+#=> "foo"
+e1.age
+#=> 33
+e2.name
+#=> "bar"
+e2.age
+#=> nil
