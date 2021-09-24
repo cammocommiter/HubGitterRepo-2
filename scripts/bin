@@ -1,11 +1,5 @@
-a = "foobar"
-a.slice! "foo"
-=> "foo"
-a
-=> "bar"
-
-module Mods
-  def self.foo
-     puts "Mods.foo(self)"
-  end
+.create
+def point_code_params
+  params.require(:point_code).require(:guid) # for check require params
+  params.require(:point_code).permit(:guid) # for using where hash needed
 end
