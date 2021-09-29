@@ -1,3 +1,2 @@
-rake assets:clean
-
-rvm [reinstall|install]
+nil
+openssl enc
