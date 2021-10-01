@@ -1,2 +1,8 @@
-let
-json_string
+gem which rails
+
+class Example
+  def initialize(test='hey')
+    singleton = class << self; self end
+    singleton.send :define_method, :say_hello, lambda { test }
+  end
+end
