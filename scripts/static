@@ -1,2 +1,2 @@
-sudo CC=/usr/bin/gcc-4.2 rvm install --force ree
-table, img, blockquote {page-break-inside: avoid;}
+abs
+Array.new(3) { [] }
