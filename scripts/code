@@ -1,3 +1,4 @@
-@search_query = @search_query.gsub(/[^0-9a-z ]/i, '')
-
-Array
+.split("\n")
+task :migrate, :roles => :db, :only => { :primary => true } do
+  # ...
+end
