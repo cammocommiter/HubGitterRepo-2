@@ -1,2 +1,8 @@
-named_scope
-Enumerator#with_index
+#flatten
+def this_method_takes_a_block
+  yield(5)
+end
+
+this_method_takes_a_block do |num|
+  puts num
+end
