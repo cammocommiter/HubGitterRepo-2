@@ -1,5 +1,3 @@
-bar.class.name.split('::').last
-#=> "Bar"
+ActiveRecord::Base.logger = Logger.new(STDOUT)
 
-list.group_by(&:capitalize).map {|k,v| [k, v.length]}
-#=> [["Master of puppets", 3], ["Enter sandman", 2], ["Nothing else matters", 1]]
+<<-
