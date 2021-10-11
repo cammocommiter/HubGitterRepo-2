@@ -1,2 +1,2 @@
-Hash
-kind_of?
+form.schedule :as => :recurring
+current_page?
