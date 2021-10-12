@@ -1,5 +1,11 @@
-.create
-def point_code_params
-  params.require(:point_code).require(:guid) # for check require params
-  params.require(:point_code).permit(:guid) # for using where hash needed
-end
+time.in_time_zone(time_zone)
+
+hash1 = {'a' => 1, 'b' => 2}
+hash2 = {'a' => 1, 'b' => 2}
+hash3 = {'a' => 1, 'b' => 2, 'c' => 3}
+
+hash1 == hash2 # => true
+hash1 == hash3 # => false
+
+hash1.to_a == hash2.to_a # => true
+hash1.to_a == hash3.to_a # => false
