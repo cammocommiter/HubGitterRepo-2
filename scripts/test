@@ -1,2 +1,3 @@
-DateTime.current.midnight
-"A".ord #=> 65
+protect_from_forgery with: :exception
+
+Object#to_query
