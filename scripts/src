@@ -1,3 +1,2 @@
-str_array = int_array.map(&:to_s)
-
-portslist: '[{"name":"ob1","port_type" ... }]'
+remove_instance_variable
+validates_format_of :email,:with => /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/
