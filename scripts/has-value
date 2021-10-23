@@ -1,2 +1,2 @@
-kind_of?
-case
+to_s
+&
