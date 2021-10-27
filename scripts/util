@@ -1,3 +1,2 @@
-/System/Library
-# config/environments/test.rb:
-config.cache_store = :null_store
+do |arg0,arg1| ... end
+with_indifferent_access
