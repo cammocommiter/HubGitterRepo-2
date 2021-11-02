@@ -1,3 +1,4 @@
-Report.joins(:servers).where(:servers => {:company_id => 5})
+Failed to build gem native extension errors
+require 'resque'
 
-punkt-segmenter
+Resque.info 
