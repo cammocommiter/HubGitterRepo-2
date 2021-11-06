@@ -1,3 +1,2 @@
-cats.each { |cat| cat.name }
-
-return hashValue.ToString();
+.strip
+(0...8).map { (65 + rand(26)).chr }.join
