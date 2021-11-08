@@ -1,3 +1,12 @@
-%i[address city state postal country]
+#1 query
+Dog.find(:all).each do |dog|
+   #N queries
+   dog.owner.siblings.each do |sibling|
+      #N queries per above N query!!
+      sibling.pets.each do |pet|
+         #Do something here
+      end
+   end
+end
 
-Gemfile
+uniq
