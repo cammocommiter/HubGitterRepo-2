@@ -1,2 +1,4 @@
-Gemfile.lock
-sudo apt-get install libmysql-ruby libmysqlclient-dev
+http://myusername:mypass@www.someapp.com/
+
+gem install eventmachine --pre
+gem install thin
