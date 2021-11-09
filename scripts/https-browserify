@@ -1,14 +1,12 @@
-next
-class Foo
-  def bar
-    'Hello'
-  end
-end 
-
-class ExtendedFoo < Foo
-  def bar
-    super + ' World'
-  end
+require 'csv'
+CSV.open("myfile.csv", "w") do |csv|
+  csv << ["row", "of", "CSV", "data"]
+  csv << ["another", "row"]
+  # ...
 end
 
-ExtendedFoo.new.bar # => 'Hello World'
+class Foo
+  def test_method
+    __method__
+  end
+end
