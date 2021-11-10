@@ -1,2 +1,2 @@
-abs
-Array.new(3) { [] }
+rand(range)
+downcase
