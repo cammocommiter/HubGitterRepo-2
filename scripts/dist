@@ -1,2 +1,3 @@
-nil
-openssl enc
+Foo.where("bar LIKE ?", "%#{query}%")
+
+Time
