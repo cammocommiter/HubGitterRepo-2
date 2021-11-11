@@ -1,3 +1,2 @@
-Dir["/path/to/search/*"]
-
-gem install --local path_to_gem/filename.gem
+*
+String#encode
