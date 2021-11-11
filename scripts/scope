@@ -1,2 +1,9 @@
-brew rm -f readline
-sudo gem install rails -V
+step
+class A
+end
+
+class B < A
+end
+
+B.superclass # => A
+B.superclass.name # => "A"
