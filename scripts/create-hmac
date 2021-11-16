@@ -1,5 +1,2 @@
-Hash
-[1,"a",Object.new,:hi].inject({}) do |hash, item|
-  hash[item.to_s] = item
-  hash
-end
+String#split
+12.is_a? Numeric
