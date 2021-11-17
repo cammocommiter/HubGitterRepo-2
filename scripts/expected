@@ -1,2 +1,4 @@
-myclass = Class.new
-ApplicationController
+extend self
+var = "Value"
+str = "a test Value"
+p str.gsub( /#{var}/, 'foo' )   # => "a test foo"
