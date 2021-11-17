@@ -1,3 +1,11 @@
-gem install libv8 -v '3.16.14.3' -- --with-system-v8
+h = { :$in => array }
+h = { :'a.b' => 'c' }
+h[:s] = 42
 
-unicorn.log
+>> User.methods - Object.methods
+=> ["field_types", "maximum", "create!", "active_connections", "to_dropdown",
+    "content_columns", "su_pw?", "default_timezone", "encode_quoted_value", 
+    "reloadable?", "update", "reset_sequence_name", "default_timezone=", 
+    "validate_find_options", "find_on_conditions_without_deprecation", 
+    "validates_size_of", "execute_simple_calculation", "attr_protected", 
+    "reflections", "table_name_prefix", ...
