@@ -1,7 +1,4 @@
-Fixnum
-def valid_json?(json)
-    JSON.parse(json)
-    return true
-  rescue JSON::ParserError => e
-    return false
-end
+parsed = json && json.length >= 2 ? JSON.parse(json) : nil
+
+#!/bin/bash
+tmux new-session -d -s my_session 'ruby run.rb'
