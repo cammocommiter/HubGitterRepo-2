@@ -1,8 +1,2 @@
-CSV.open("path/to/file.csv", "wb") do |csv|
-  csv << User.attribute_names
-  User.find_each do |user|
-    csv << user.attributes.values
-  end
-end
-
-remove_instance_variable
+array.sum
+request.original_url
