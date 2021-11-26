@@ -1,19 +1,9 @@
-self
-some_ascii   = "abc"
-some_unicode = "áëëçüñżλφθΩ𠜎😸"
-more_ascii   = "123ABC"
-invalid_byte = "\255"
+File.expand_path('../../Gemfile', __FILE__)
 
-non_ascii_string = [some_ascii, some_unicode, more_ascii, invalid_byte].join
+x = :sym
+y = :sym
+(x.__id__ == y.__id__ ) && ( :sym.__id__ == x.__id__) # => true
 
-# See String#encode documentation
-encoding_options = {
-  :invalid           => :replace,  # Replace invalid byte sequences
-  :undef             => :replace,  # Replace anything not defined in ASCII
-  :replace           => '',        # Use a blank for those replacements
-  :universal_newline => true       # Always break lines with \n
-}
-
-ascii = non_ascii_string.encode(Encoding.find('ASCII'), encoding_options)
-puts ascii.inspect
-  # => "abce123ABC"
+x = "string"
+y = "string"
+(x.__id__ == y.__id__ ) || ( "string".__id__ == x.__id__) # => false
