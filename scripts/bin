@@ -1,3 +1,2 @@
-s3_bucket.objects.with_prefix('folder_name').collect(&:key)
-
-puts caller
+Time#localtime
+Enumerable#reduce
