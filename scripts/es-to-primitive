@@ -1,2 +1,5 @@
-Array.new(3) { [] }
-or
+puts Benchmark.measure("require #{file}") {
+  Kernel.require file
+}.format("%n: %t %r")
+
+fire!
