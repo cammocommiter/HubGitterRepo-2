@@ -1,2 +1,3 @@
-public
-rake db -T -A
+validates_format_of :email,:with => /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/
+
+a + b
