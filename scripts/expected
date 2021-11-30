@@ -1,4 +1,2 @@
-extend self
-var = "Value"
-str = "a test Value"
-p str.gsub( /#{var}/, 'foo' )   # => "a test foo"
+make install
+Blog.reset_column_information
