@@ -1,1 +1,3 @@
-def this; end
+[5, 10].min
+
+rspec ./spec/controllers/groups_controller_spec.rb:42
