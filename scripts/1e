@@ -1,3 +1,2 @@
-ActiveRecord::Base.logger = Logger.new(STDOUT)
-
-<<-
+gets
+sprintf
