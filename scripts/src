@@ -1,2 +1,2 @@
-remove_instance_variable
-validates_format_of :email,:with => /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/
+JSON.parse
+# TODO
