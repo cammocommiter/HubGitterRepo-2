@@ -1,3 +1,4 @@
-run "cd #{current_path} && RAILS_ENV=production unicorn_rails -c config/unicorn.rb -D"
+ActiveRecord::Base.logger = Logger.new(STDOUT)
 
-round_off
+10.minutes.ago
+2.days.since
