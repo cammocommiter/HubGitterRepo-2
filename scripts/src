@@ -1,2 +1,4 @@
-JSON.parse
-# TODO
+"String".start_with? "S" # true
+"String".end_with? "4" # false
+
+UPDATE pg_database SET datistemplate = FALSE WHERE datname = 'template1';
