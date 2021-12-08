@@ -1,3 +1,14 @@
-Foo.where("bar LIKE ?", "%#{query}%")
+>> User.methods - Object.methods
+=> ["field_types", "maximum", "create!", "active_connections", "to_dropdown",
+    "content_columns", "su_pw?", "default_timezone", "encode_quoted_value", 
+    "reloadable?", "update", "reset_sequence_name", "default_timezone=", 
+    "validate_find_options", "find_on_conditions_without_deprecation", 
+    "validates_size_of", "execute_simple_calculation", "attr_protected", 
+    "reflections", "table_name_prefix", ...
 
-Time
+begin
+  raise
+rescue => e
+  logger.error e.message
+  logger.error e.backtrace.join("\n")
+end
