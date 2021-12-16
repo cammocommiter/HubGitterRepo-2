@@ -1,4 +1,8 @@
-Failed to build gem native extension errors
-require 'resque'
+def foo
+  p "bar".object_id
+end
 
-Resque.info 
+foo #=> 15779172
+foo #=> 15779112
+
+.gem
