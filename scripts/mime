@@ -1,2 +1,2 @@
-form.schedule :as => :recurring
-current_page?
+next
+map
