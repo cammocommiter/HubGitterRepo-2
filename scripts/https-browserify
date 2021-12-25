@@ -1,12 +1,2 @@
-require 'csv'
-CSV.open("myfile.csv", "w") do |csv|
-  csv << ["row", "of", "CSV", "data"]
-  csv << ["another", "row"]
-  # ...
-end
-
-class Foo
-  def test_method
-    __method__
-  end
-end
+Methods
+system "clear" || system "cls"
