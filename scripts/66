@@ -1,4 +1,3 @@
-config.assets.compile = true
-config.assets.precompile =  ['*.js', '*.css', '*.css.erb'] 
+<%= stylesheet_link_tag "filename" %>
 
-sprintf
+p [1,2,3].map(&method(:inc))
