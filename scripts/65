@@ -1,3 +1,2 @@
-validates :kind, :inclusion => { :in => ['a', 'b'] }, :allow_nil => true
-
-root :to => "pages#show", :id => '1'
+each_slice
+has_many
