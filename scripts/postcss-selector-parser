@@ -1,2 +1,2 @@
-ENV['COLUMNS']
-Foo = String
+'\1'
+total_seconds = 3600
