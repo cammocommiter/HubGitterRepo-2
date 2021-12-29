@@ -1,3 +1,2 @@
-`sleep --help`
-
-u
+cd C:\Ruby193\DevKit
+gem pristine --all
