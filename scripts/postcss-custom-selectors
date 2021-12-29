@@ -1,2 +1,3 @@
-cd C:\Ruby193\DevKit
-gem pristine --all
+remove_column :table_name, :column_name
+
+rvm implode
