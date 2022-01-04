@@ -1,1 +1,15 @@
-def this; end
+case var
+when 1
+  dosomething
+when 2..3
+  doSomethingElse
+end
+
+case
+when var == 1
+   doSomething
+when var < 12
+   doSomethingElse
+end
+
+Enumerable#all?
