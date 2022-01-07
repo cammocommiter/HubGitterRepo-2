@@ -1,2 +1,12 @@
-map
-sudo gem install cocoapods
+ages = { 'Bruce' => 32, 'Clark' => 28 }
+mappings = { 'Bruce' => 'Bruce Wayne', 'Clark' => 'Clark Kent' }
+
+ages.transform_keys(&mappings.method(:[]))
+#=> { 'Bruce Wayne' => 32, 'Clark Kent' => 28 }
+
+users.each_with_index do |u, index|
+  # some code
+  if index == users.size - 1
+    # code for the last user
+  end
+end
