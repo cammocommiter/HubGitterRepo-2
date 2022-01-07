@@ -1,2 +1,2 @@
-next
-map
+/bin/bash --login; source ~/.rvm/scripts/rvm; rvm use 2.4.0
+require "./tokenizer"
