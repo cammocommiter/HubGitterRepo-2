@@ -1,3 +1,17 @@
-gem source -a http://rubygems.org/
+module Site
+  @@name = "StackOverflow"
 
-titleize
+  def self.setName(value)
+    @@name = value
+  end
+
+  def self.name
+    @@name
+  end
+end
+
+Site.name            # => "StackOverflow"
+Site.setName("Test")
+Site.name            # => "Test"
+
+irb
