@@ -1,2 +1,10 @@
-bundle update
-a === b
+def largest_hash_key(hash)
+  hash.max_by{|k,v| v}
+end
+
+def ldap_get(base_dn, filter, options = {})
+  options[:scope] ||= LDAP::LDAP_SCOPE_SUBTREE
+  ...
+end
+
+ldap_get(base_dn, filter, :attrs => X)
