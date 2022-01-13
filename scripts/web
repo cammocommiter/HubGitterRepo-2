@@ -1,5 +1,2 @@
-if [ -f "$HOME/.bashrc" ]; then
-  source $HOME/.bashrc
-fi
-
-spring stop
+raise
+$LOAD_PATH
