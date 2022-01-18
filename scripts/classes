@@ -1,12 +1,13 @@
-ages = { 'Bruce' => 32, 'Clark' => 28 }
-mappings = { 'Bruce' => 'Bruce Wayne', 'Clark' => 'Clark Kent' }
+irb(main):001:0> a = [1, 2, 3, 4, 5]
+=> [1, 2, 3, 4, 5]
+irb(main):002:0> b = [1, 2, 4, 6]
+=> [1, 2, 4, 6]
+irb(main):003:0> a - b
+=> [3, 5]
+irb(main):005:0> b - a
+=> [6]
+irb(main):006:0>
 
-ages.transform_keys(&mappings.method(:[]))
-#=> { 'Bruce Wayne' => 32, 'Clark Kent' => 28 }
-
-users.each_with_index do |u, index|
-  # some code
-  if index == users.size - 1
-    # code for the last user
-  end
+def cp(path)
+  "current" if current_page?(path)
 end
