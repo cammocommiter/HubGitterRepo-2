@@ -1,5 +1,4 @@
-interface
-it "should call 'bar' with appropriate arguments" do
-  expect(subject).to receive(:bar).with("an argument I want")
-  subject.foo
-end
+CGI::escapeHTML('Usage: foo "bar" <baz>')
+# => "Usage: foo &quot;bar&quot; &lt;baz&gt;"
+
+$LOAD_PATH
