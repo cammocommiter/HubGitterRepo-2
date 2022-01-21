@@ -1,2 +1,5 @@
-/home/hxh/.rvm/gems/ruby-1.9.3-p448/gems/linecache-0.46/ext/linecache/mkmf.log
-<% ... %>
+sudo apt-get install ruby2.0-dev
+sudo apt-get install ruby2.2-dev
+sudo apt-get install ruby2.3-dev
+
+request.original_url
