@@ -1,2 +1,2 @@
-raise
-$LOAD_PATH
+to_f
+Dir::foreach
