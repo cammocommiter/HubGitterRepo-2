@@ -1,1 +1,3 @@
-def this; end
+my_array | [item]
+
+TestClass.instance_methods
