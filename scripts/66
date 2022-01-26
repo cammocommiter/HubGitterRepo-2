@@ -1,3 +1,2 @@
-<%= stylesheet_link_tag "filename" %>
-
-p [1,2,3].map(&method(:inc))
+Module#private_constant
+modelb
