@@ -1,2 +1,4 @@
-Methods
-system "clear" || system "cls"
+# %q(a string) is equivalent to a single-quoted string
+puts "Cote d'Ivoir".gsub("'", %q(\\\')) #=> Cote d\'Ivoir
+
+Haml::Template::options[:ugly] = true
