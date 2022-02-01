@@ -1,7 +1,2 @@
-array = %w( a b c d e)
-# get FIRST index of element searched
-puts array.index('a')
-# get LAST index of element searched
-puts array.rindex('a')
-
--Wno-error=unused-command-line-argument-hard-error-in-future
+$:
+ruby
