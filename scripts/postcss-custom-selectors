@@ -1,3 +1,3 @@
-ALTER TABLE your_database_name.your_table CONVERT TO CHARACTER SET utf8
+puts variable.inspect
 
-File.expand_path("..", Dir.pwd)
+kind_of()
