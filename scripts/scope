@@ -1,9 +1,3 @@
-step
-class A
-end
+(foo ||= []) << :element
 
-class B < A
-end
-
-B.superclass # => A
-B.superclass.name # => "A"
+(2...n).all?
