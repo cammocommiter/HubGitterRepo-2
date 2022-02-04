@@ -1,13 +1,19 @@
-irb(main):001:0> a = [1, 2, 3, 4, 5]
-=> [1, 2, 3, 4, 5]
-irb(main):002:0> b = [1, 2, 4, 6]
-=> [1, 2, 4, 6]
-irb(main):003:0> a - b
-=> [3, 5]
-irb(main):005:0> b - a
-=> [6]
-irb(main):006:0>
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-def cp(path)
-  "current" if current_page?(path)
-end
+r or rb
+    Open file for reading.
+
+w or wb
+    Truncate to zero length or create file for writing.
+
+a or ab
+    Append; open or create file for writing at end-of-file.
+
+r+ or rb+ or r+b
+    Open file for update (reading and writing).
+
+w+ or wb+ or w+b
+    Truncate to zero length or create file for update.
+
+a+ or ab+ or a+b
+    Append; open or create file for update, writing at end-of-file.
