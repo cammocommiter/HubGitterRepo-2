@@ -1,2 +1,2 @@
-user.reload
-sorted = @records.sort_by &:created_at
+attributes
+{
