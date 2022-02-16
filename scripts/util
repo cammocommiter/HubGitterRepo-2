@@ -1,4 +1,0 @@
-index(substring [, offset]) → fixnum or nil
-index(regexp [, offset]) → fixnum or nil
-
-stub_const('ENV', {'AWS_ACCESS_KEY_ID' => 'asdf'})
