@@ -1,4 +1,0 @@
-rails --version # => the latest version
-rails _2.3.10_ --version # => Rails 2.3.10
-
-rvm use 1.9.3 --default
