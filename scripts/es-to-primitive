@@ -1,4 +1,0 @@
-require 'rake'
-Rake::Task[name].invoke
-
-RVM
