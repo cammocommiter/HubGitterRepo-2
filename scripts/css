@@ -1,4 +1,0 @@
-CGI::escapeHTML('Usage: foo "bar" <baz>')
-# => "Usage: foo &quot;bar&quot; &lt;baz&gt;"
-
-$LOAD_PATH
