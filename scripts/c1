@@ -1,8 +1,0 @@
-return
-Person = Struct.new(:first_name, :last_name, :age)
-
-person_hash = { first_name: "Foo", last_name: "Bar", age: 29 }
-
-person = Person.new(*person_hash.values_at(*Person.members))
-
-=> #<struct Person first_name="Foo", last_name="Bar", age=29>
