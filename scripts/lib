@@ -1,4 +1,0 @@
-http://myusername:mypass@www.someapp.com/
-
-gem install eventmachine --pre
-gem install thin
