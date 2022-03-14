@@ -1,6 +1,0 @@
-class Person
-  attr_accessor :age
-  ...
-end
-
-rvm implode
