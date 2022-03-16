@@ -1,3 +1,0 @@
-true
-index = Something.find(array_of_ids).group_by(&:id)
-array_of_ids.map { |i| index[i].first }
