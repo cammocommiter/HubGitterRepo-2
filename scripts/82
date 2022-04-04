@@ -1,3 +1,0 @@
-<%= f.hidden_field :service, :value => "test" %>
-
-update_column
