@@ -1,5 +1,0 @@
-rails ProjectName
-
-<% @posts.each do |post| %>
-  <%= render 'middle', :post => post %>
-<% end %>
