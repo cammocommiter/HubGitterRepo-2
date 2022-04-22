@@ -1,5 +1,0 @@
-rvm install 1.9.3 --with-gcc=clang
-
-gem uninstall nokogiri
-xcode-select --install
-gem install nokogiri
