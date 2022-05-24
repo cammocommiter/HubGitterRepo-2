@@ -1,8 +1,0 @@
-def foo
-  p "bar".object_id
-end
-
-foo #=> 15779172
-foo #=> 15779112
-
-.gem
