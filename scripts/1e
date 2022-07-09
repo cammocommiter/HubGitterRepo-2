@@ -1,2 +1,0 @@
-DummyClass.class
-'hello' =~ /^h/ # => 0
