@@ -1,4 +1,0 @@
-$ gem install pry
-$ pry
-
-rm ~/.zcompdump*
